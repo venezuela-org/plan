@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Conexión RedJIV · Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Spline+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#191C2A; --muted:#5B6175; --faint:#8A8FA3; --line:#E6E8F0; --bg:#F6F7F9; --card:#FFFFFF;
+    --teal:#0F7A6B; --teal-bg:#E4F2EF; --amber:#B26A0B; --amber-bg:#FBEFD9; --rose:#B23A52; --rose-bg:#F9E7EC;
+    --display:"Space Grotesk",-apple-system,system-ui,sans-serif;
+    --body:"Spline Sans",-apple-system,system-ui,sans-serif;
+    --mono:"Space Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:16.5px}
+  .bar{position:sticky;top:0;z-index:50;background:rgba(246,247,249,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .bar .in{max-width:860px;margin:0 auto;padding:11px 22px;display:flex;align-items:center;gap:14px}
+  .bar .brand{font-family:var(--display);font-weight:600;font-size:.98rem;letter-spacing:-.01em}
+  .bar .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--teal);margin-right:8px;vertical-align:middle}
+  .bar .sp{flex:1}
+  .tbtn{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);
+    background:var(--card);color:var(--muted);border-radius:999px;padding:7px 12px;cursor:pointer;transition:.15s}
+  .tbtn:hover{border-color:var(--faint);color:var(--ink)}
+  .tbtn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .lang{display:flex;gap:5px}
+
+  main{max-width:860px;margin:0 auto;padding:0 22px}
+  .hero{padding:56px 0 30px;border-bottom:1px solid var(--line)}
+  .kick{font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--teal)}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5.4vw,3.3rem);line-height:1.04;letter-spacing:-.02em;margin:16px 0 0;max-width:20ch}
+  .sub{font-size:1.12rem;color:var(--muted);margin-top:16px;max-width:60ch}
+  .meta{font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-top:20px}
+
+  section{padding:34px 0;border-bottom:1px solid var(--line)}
+  h2{font-family:var(--display);font-weight:600;font-size:1.5rem;letter-spacing:-.01em;margin-bottom:6px}
+  .h2note{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:16px}
+  p{margin:0 0 12px;max-width:68ch}
+  .lead{font-size:1.06rem}
+  strong{font-weight:600}
+  .pull{border-left:3px solid var(--teal);padding:4px 0 4px 18px;margin:16px 0;color:var(--ink);font-size:1.05rem}
+
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card);margin:6px 0 14px}
+  .facts div{padding:15px 16px;border-right:1px solid var(--line)}
+  .facts div:last-child{border-right:0}
+  .facts b{font-family:var(--display);font-size:1.4rem;font-weight:600;display:block}
+  .facts span{font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+
+  .hz{display:grid;grid-template-columns:118px 1fr;border-top:1px solid var(--line)}
+  .hz:first-of-type{border-top:0}
+  .hz .w{font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);padding:16px 14px 16px 0}
+  .hz .c{padding:16px 0}
+  .hz .c b{font-family:var(--display);font-weight:600;font-size:1.02rem;display:block;margin-bottom:3px}
+  .hz .c p{color:var(--muted);margin:0;font-size:.95rem}
+
+  .grp{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:18px 20px;margin-bottom:12px}
+  .grp .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .grp .tag{font-family:var(--mono);font-size:.62rem;font-weight:700;letter-spacing:.06em;color:var(--teal);background:var(--teal-bg);padding:3px 8px;border-radius:6px}
+  .grp h3{font-family:var(--display);font-weight:600;font-size:1.12rem;letter-spacing:-.01em}
+  .grp p{color:var(--muted);font-size:.94rem;margin:9px 0 0}
+  .grp .row{font-size:.86rem;margin-top:9px;color:var(--ink)}
+  .grp .row .k{font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-right:7px}
+  .grp.host{border-color:var(--teal);border-width:1px;background:var(--teal-bg)}
+
+  .ideas{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card);margin-top:4px}
+  .idea{display:grid;grid-template-columns:26px 1fr auto;gap:10px;align-items:center;padding:10px 14px;border-top:1px solid var(--line);font-size:.9rem}
+  .idea:first-child{border-top:0}
+  .idea .n{font-family:var(--mono);font-size:.7rem;color:var(--faint)}
+  .idea .t{min-width:0}
+  .idea .t b{font-weight:500}
+  .idea .t span{display:block;color:var(--faint);font-size:.78rem;font-family:var(--mono);letter-spacing:.02em;margin-top:1px}
+  .pill{font-family:var(--mono);font-size:.56rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;white-space:nowrap}
+  .pill.act{color:var(--teal);background:var(--teal-bg)} .pill.bk{color:var(--faint);background:#EFF0F4}
+
+  ul.clean{list-style:none;margin:6px 0 12px}
+  ul.clean li{position:relative;padding-left:20px;margin-bottom:7px;color:var(--muted);max-width:66ch}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--teal)}
+  ul.clean li strong{color:var(--ink)}
+
+  .box{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:16px 18px;margin-top:8px}
+  .box.warn{background:var(--amber-bg);border-color:#EAD3A3}
+  .box .lbl{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
+
+  a.cta{display:inline-block;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;
+    background:var(--ink);color:#fff;border-radius:999px;padding:12px 20px;text-decoration:none;margin-top:6px}
+  a.inline{color:var(--teal);text-decoration:underline;text-underline-offset:2px}
+
+  footer{padding:34px 0 70px;color:var(--faint)}
+  footer .f{font-family:var(--display);color:var(--ink);font-weight:600}
+  footer small{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;display:block;margin-top:6px}
+
+  [data-lang="en"]{display:none}
+  html.en [data-lang="es"]{display:none}
+  html.en [data-lang="en"]{display:block}
+  html.en span[data-lang="en"],html.en b[data-lang="en"]{display:inline}
+  span[data-lang],b[data-lang]{display:none}
+  html:not(.en) span[data-lang="es"],html:not(.en) b[data-lang="es"]{display:inline}
+
+  @media(max-width:640px){
+    .facts{grid-template-columns:repeat(2,1fr)}
+    .facts div:nth-child(2){border-right:0}
+    .hz{grid-template-columns:1fr} .hz .w{padding-bottom:2px}
+  }
+  @media print{
+    body{background:#fff;font-size:11pt}
+    .bar{display:none} main{max-width:100%}
+    section,.hero{border-color:#ccc}
+    .grp,.facts,.ideas,.box{break-inside:avoid}
+    a.cta{display:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="bar"><div class="in">
+  <span class="brand"><span class="dot"></span>Conexión RedJIV</span>
+  <span class="sp"></span>
+  <div class="lang">
+    <button class="tbtn on" id="bes" onclick="setLang('es')">ES</button>
+    <button class="tbtn" id="ben" onclick="setLang('en')">EN</button>
+  </div>
+  <button class="tbtn" onclick="window.print()"><span data-lang="es">Imprimir / PDF</span><span data-lang="en">Print / PDF</span></button>
+</div></div>
+
+<main>
+
+  <header class="hero">
+    <div class="kick"><span data-lang="es">Red de Jóvenes Investigadores de Venezuela</span><span data-lang="en">Network of Young Venezuelan Researchers</span></div>
+    <h1><span data-lang="es">Donde dos disciplinas se conectan, ayudamos al país.</span><span data-lang="en">Where two disciplines connect, we help the country.</span></h1>
+    <p class="sub"><span data-lang="es">Un plan de acción ante los terremotos del 24 de junio de 2026. Tomamos el talento y las ideas de la red y los ponemos a trabajar en cosas útiles, ya. La gente se suma a un grupo según su experticia y empieza sin adivinar por qué está ahí.</span><span data-lang="en">An action plan for the earthquakes of June 24, 2026. We take the network's talent and ideas and put them to work on useful things, now. People join a group by expertise and start without guessing why they are there.</span></p>
+    <div class="meta"><span data-lang="es">Documento vivo · actualizado inicios de julio 2026 · perfil bajo por diseño</span><span data-lang="en">Living document · updated early July 2026 · low profile by design</span></div>
+  </header>
+
+  <section>
+    <h2><span data-lang="es">Perfil bajo por diseño</span><span data-lang="en">Low profile by design</span></h2>
+    <div class="h2note"><span data-lang="es">La primera regla</span><span data-lang="en">The first rule</span></div>
+    <p class="lead"><span data-lang="es">No buscamos ser famosos ni conocidos. El trabajo importa más que el nombre. El crédito es de las personas que lo hacen, no de la red, que es solo un facilitador discreto.</span><span data-lang="en">We do not seek to be famous or known. The work matters more than the name. Credit belongs to the people who do it, not to the network, which is only a discreet enabler.</span></p>
+    <p><span data-lang="es">Esto no es falsa modestia. En un entorno con más de 200 sitios bloqueados y vigilancia sobre las comunicaciones, el perfil bajo también protege a quienes están dentro del país. Trabajamos en silencio y dejamos que hablen los resultados y las personas.</span><span data-lang="en">This is not false modesty. In an environment with more than 200 blocked websites and surveillance over communications, a low profile also protects those inside the country. We work quietly and let the results and the people speak.</span></p>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">La situación</span><span data-lang="en">The situation</span></h2>
+    <div class="h2note"><span data-lang="es">Fuentes: ONU y autoridades venezolanas · cifras preliminares y en aumento</span><span data-lang="en">Sources: UN and Venezuelan authorities · preliminary and rising</span></div>
+    <div class="facts">
+      <div><b>7,2 + 7,5</b><span data-lang="es">magnitudes, 39 s aparte</span><span data-lang="en">magnitudes, 39 s apart</span></div>
+      <div><b>2.595+</b><span data-lang="es">fallecidos</span><span data-lang="en">dead</span></div>
+      <div><b>~50.000</b><span data-lang="es">sin localizar</span><span data-lang="en">unaccounted for</span></div>
+      <div><b>1,8 M</b><span data-lang="es">necesitan ayuda</span><span data-lang="en">people in need</span></div>
+    </div>
+    <p><span data-lang="es">Dos sismos el 24 de junio a las 6:04 pm, epicentros cerca de Yumare (Yaracuy). La Guaira es zona de desastre; Caracas y varios estados con daño severo. Unos 58.870 edificios dañados, pérdidas de unos 6.700 millones de dólares (cerca del 6% del PIB), más de 860 réplicas, y 680.000 niños entre quienes necesitan asistencia. El sistema de salud está al límite y la ONU advierte sobre enfermedades infecciosas.</span><span data-lang="en">Two earthquakes on June 24 at 6:04 pm, epicenters near Yumare (Yaracuy). La Guaira is a disaster zone; Caracas and several states have severe damage. Around 58,870 buildings damaged, losses of roughly US$6.7 billion (about 6% of GDP), more than 860 aftershocks, and 680,000 children among those in need. The health system is at breaking point and the UN warns of infectious disease.</span></p>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Cómo trabajamos</span><span data-lang="en">How we work</span></h2>
+    <div class="h2note"><span data-lang="es">Grupos por experticia, distintos niveles</span><span data-lang="en">Groups by expertise, different levels</span></div>
+    <p><span data-lang="es">Cada grupo tiene un lead con experiencia que valida el trabajo y conecta con quienes responden en terreno, y espacio para que estudiantes de maestría, doctorado y pregrado ejecuten y salgan como primeros autores del resultado. Distintos niveles, un mismo grupo.</span><span data-lang="en">Each group has an experienced lead who validates the work and connects with responders on the ground, and room for master's, doctoral and undergraduate students to execute and come out as first authors of the result. Different levels, one group.</span></p>
+    <div class="pull"><span data-lang="es">Todo se canaliza a través de organismos ya establecidos (ONU OCHA, UNICEF, Direct Relief, FUNVISIS). No improvisamos en la zona.</span><span data-lang="en">Everything is channeled through already-established bodies (UN OCHA, UNICEF, Direct Relief, FUNVISIS). We do not improvise in the zone.</span></div>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Horizontes de tiempo</span><span data-lang="en">Time horizons</span></h2>
+    <div class="h2note"><span data-lang="es">Ayudar en el desastre, de la respuesta a la reconstrucción</span><span data-lang="en">Helping in the disaster, from response to reconstruction</span></div>
+    <div class="hz"><div class="w"><span data-lang="es">Ahora</span><span data-lang="en">Now</span></div><div class="c"><b><span data-lang="es">Activar los grupos</span><span data-lang="en">Activate the groups</span></b><p><span data-lang="es">Mapa de necesidades y accesos, guía de agua para campamentos, apoyo directo a quienes responden.</span><span data-lang="en">Needs-and-access map, water guide for camps, direct support to responders.</span></p></div></div>
+    <div class="hz"><div class="w"><span data-lang="es">2 a 3 meses</span><span data-lang="en">2 to 3 months</span></div><div class="c"><b><span data-lang="es">Primeros entregables</span><span data-lang="en">First deliverables</span></b><p><span data-lang="es">Mapas, protocolos, vigilancia en refugios, material psicosocial. Apoyo sostenido a la respuesta.</span><span data-lang="en">Maps, protocols, shelter surveillance, psychosocial material. Sustained support to the response.</span></p></div></div>
+    <div class="hz"><div class="w"><span data-lang="es">1 año</span><span data-lang="en">1 year</span></div><div class="c"><b><span data-lang="es">De respuesta a recuperación</span><span data-lang="en">From response to recovery</span></b><p><span data-lang="es">Datos abiertos, monitoreo ambiental y de salud, y una capacidad de ciencia para emergencias que no se desarme. Formación en el camino.</span><span data-lang="en">Open data, environmental and health monitoring, and a science-for-emergencies capacity that does not disband. Training along the way.</span></p></div></div>
+    <div class="hz"><div class="w"><span data-lang="es">2 años</span><span data-lang="en">2 years</span></div><div class="c"><b><span data-lang="es">Reconstrucción con criterio</span><span data-lang="en">Reconstruction with judgment</span></b><p><span data-lang="es">Aporte sismo-resistente, de agua y de salud. La capacidad queda como músculo permanente y varias personas con salidas a su nombre.</span><span data-lang="en">Earthquake-resistant, water and health contributions. The capacity remains as permanent muscle, and several people with outputs in their own name.</span></p></div></div>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Los cinco grupos</span><span data-lang="en">The five groups</span></h2>
+    <div class="h2note"><span data-lang="es">Reenfoque de nuestras ideas hacia la emergencia</span><span data-lang="en">Our ideas refocused toward the emergency</span></div>
+
+    <div class="grp"><div class="top"><span class="tag">A</span><h3><span data-lang="es">Mapa de necesidades y accesos</span><span data-lang="en">Needs and access map</span></h3></div>
+      <p><span data-lang="es">Dónde no está llegando la ayuda: daños, vías bloqueadas y vacíos de cobertura en La Guaira, Caracas y los estados afectados, para dárselo a quienes responden.</span><span data-lang="en">Where aid is not reaching: damage, blocked roads and coverage gaps in La Guaira, Caracas and affected states, to hand to responders.</span></p>
+      <div class="row"><span class="k">Lead</span>María Vincenti / Luis Montilla</div>
+      <div class="row"><span class="k"><span data-lang="es">Gente</span><span data-lang="en">People</span></span>Leonardo Manrique, Reybert Carrillo, Barbara Montañes</div>
+      <div class="row"><span class="k"><span data-lang="es">Ideas</span><span data-lang="en">Ideas</span></span>14 (<span data-lang="es">grafos de movilidad</span><span data-lang="en">mobility graphs</span>), 18 (<span data-lang="es">geoespacial</span><span data-lang="en">geospatial</span>)</div>
+    </div>
+
+    <div class="grp"><div class="top"><span class="tag">B</span><h3><span data-lang="es">Riesgo de réplicas, deslizamientos y sitio seguro</span><span data-lang="en">Aftershock, landslide and safe-siting risk</span></h3></div>
+      <p><span data-lang="es">Mapas de susceptibilidad a deslizamientos y licuefacción en la costa de La Guaira y las laderas de Caracas, explicador de réplicas y criterios de sitio seguro para campamentos.</span><span data-lang="en">Landslide and liquefaction susceptibility maps for the La Guaira coast and Caracas hillsides, an aftershock explainer, and safe-siting criteria for camps.</span></p>
+      <div class="row"><span class="k">Lead</span>Saúl Escobar / Liliana López <span style="color:var(--faint)">(UCV)</span></div>
+      <div class="row"><span class="k"><span data-lang="es">Gente</span><span data-lang="en">People</span></span>Reybert Carrillo, Raffaella Martínez, José Hugo García</div>
+      <div class="row"><span class="k"><span data-lang="es">Ideas</span><span data-lang="en">Ideas</span></span>1 (<span data-lang="es">mapas de suelo</span><span data-lang="en">soil maps</span>), 3 (<span data-lang="es">medios granulares</span><span data-lang="en">granular media</span>)</div>
+    </div>
+
+    <div class="grp"><div class="top"><span class="tag">C</span><h3><span data-lang="es">Agua segura y saneamiento</span><span data-lang="en">Safe water and sanitation</span></h3></div>
+      <p><span data-lang="es">Protocolo de calidad de agua de bajo costo y una guía práctica de purificación y saneamiento para refugios.</span><span data-lang="en">Low-cost water-quality protocol and a practical purification and sanitation guide for shelters.</span></p>
+      <div class="row"><span class="k">Lead</span>Alejandro Goldar / Mariana Gelambi</div>
+      <div class="row"><span class="k"><span data-lang="es">Gente</span><span data-lang="en">People</span></span>Fernando Méndez, Eduardo Rodríguez-Román, Valentín Brito</div>
+      <div class="row"><span class="k"><span data-lang="es">Ideas</span><span data-lang="en">Ideas</span></span>13 (<span data-lang="es">aguas residuales</span><span data-lang="en">wastewater</span>), 2, 7</div>
+    </div>
+
+    <div class="grp"><div class="top"><span class="tag">D</span><h3><span data-lang="es">Salud en refugios y salud mental</span><span data-lang="en">Shelter health and mental health</span></h3></div>
+      <p><span data-lang="es">Vigilancia de enfermedades en refugios, material de primeros auxilios psicológicos y mapa de salud mental por región. Toca datos sensibles: nada de datos de pacientes en repos públicos.</span><span data-lang="en">Disease surveillance in shelters, psychological first-aid material, and a regional mental-health map. Touches sensitive data: no patient data in public repos.</span></p>
+      <div class="row"><span class="k">Lead</span>Juan Carlos Gabaldón / María Vincenti</div>
+      <div class="row"><span class="k"><span data-lang="es">Gente</span><span data-lang="en">People</span></span>José Orejas, Jamileth More, Eduar García, Soriuska Mayora, Fhabián Carrión-Nessi, Jesús Afonso Urich</div>
+      <div class="row"><span class="k"><span data-lang="es">Ideas</span><span data-lang="en">Ideas</span></span>1, 15, 17, 18</div>
+    </div>
+
+    <div class="grp host"><div class="top"><span class="tag">E</span><h3><span data-lang="es">Backbone de datos, cómputo y coordinación</span><span data-lang="en">Data, compute and coordination backbone</span></h3></div>
+      <p><span data-lang="es">Sostiene a los demás: el repo, cómputo, hosting de datos, el tablero y el mecanismo para canalizar y financiar el esfuerzo. No compite, es el anfitrión.</span><span data-lang="en">Holds up the rest: the repo, compute, data hosting, the board, and the mechanism to channel and fund the effort. It does not compete, it hosts.</span></p>
+      <div class="row"><span class="k">Lead</span>Arturo Sánchez / Luis Montilla / José Hugo García</div>
+      <div class="row"><span class="k"><span data-lang="es">Gente</span><span data-lang="en">People</span></span>Diego Baptista, Roberto Florez Ablan, Víctor Guzmán, Gabriela Quintero</div>
+      <div class="row"><span class="k"><span data-lang="es">Ideas</span><span data-lang="en">Ideas</span></span>4, 10, 16</div>
+    </div>
+
+    <p style="margin-top:14px"><span data-lang="es"><strong>Prioridad para arrancar:</strong> E primero, porque habilita a los demás. Luego A y C, que dan resultado rápido con baja dependencia de datos. D es el cuarto fuerte, apenas los tres rueden. B entra en paralelo si Saúl y Liliana tienen ancho de banda.</span><span data-lang="en"><strong>Where to start:</strong> E first, since it enables the rest. Then A and C, which deliver fast with low data dependency. D is the strong fourth, as soon as the three are running. B runs in parallel if Saúl and Liliana have bandwidth.</span></p>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Las 20 ideas del primer encuentro</span><span data-lang="en">The 20 ideas from the first meeting</span></h2>
+    <div class="h2note"><span data-lang="es">Nada se pierde. Verde alimenta un grupo de emergencia; gris queda en el backlog de la red</span><span data-lang="en">Nothing is lost. Green feeds an emergency group; gray stays in the network backlog</span></div>
+    <div class="ideas" id="ideas"></div>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">El talento de la red</span><span data-lang="en">The network's talent</span></h2>
+    <div class="h2note"><span data-lang="es">48 personas, doble reparto: dentro del país y diáspora</span><span data-lang="en">48 people, double spread: inside the country and diaspora</span></div>
+    <div class="facts">
+      <div><b>48</b><span data-lang="es">investigadores</span><span data-lang="en">researchers</span></div>
+      <div><b>14</b><span data-lang="es">países</span><span data-lang="en">countries</span></div>
+      <div><b>~25</b><span data-lang="es">dentro de Venezuela</span><span data-lang="en">inside Venezuela</span></div>
+      <div><b>20</b><span data-lang="es">ideas</span><span data-lang="en">ideas</span></div>
+    </div>
+    <p><span data-lang="es">Fortalezas por área: química y materiales (14), física y sistemas complejos (10), salud y biomedicina (9), biología y ecología (5), cómputo y datos (3), geociencias (3), matemáticas (2), más ingeniería de control y paleontología. La mitad dentro del país da acceso a terreno; la diáspora aporta instrumentos, afiliaciones y alcance.</span><span data-lang="en">Strengths by area: chemistry and materials (14), physics and complex systems (10), health and biomedicine (9), biology and ecology (5), computing and data (3), geosciences (3), mathematics (2), plus control engineering and paleontology. Half inside the country gives ground access; the diaspora contributes instruments, affiliations and reach.</span></p>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Cómo sumarse</span><span data-lang="en">How to join</span></h2>
+    <div class="h2note"><span data-lang="es">Toma pocos minutos</span><span data-lang="en">Takes a few minutes</span></div>
+    <p><span data-lang="es">Llena el intake: tu perfil de experticia, si estás en Venezuela y en qué estado, y en qué grupo puedes aportar y cuántas horas. Si te viste afectado directamente, dilo con confianza: es para saber quién puede necesitar apoyo, no para dejar a nadie fuera.</span><span data-lang="en">Fill the intake: your expertise profile, whether you are in Venezuela and in which state, and which group you can contribute to and how many hours. If you were directly affected, say so with confidence: it is to know who may need support, not to leave anyone out.</span></p>
+    <a class="cta" id="joinlink" href="#"><span data-lang="es">Sumarme</span><span data-lang="en">Join</span></a>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Coordinación y seguridad</span><span data-lang="en">Coordination and security</span></h2>
+    <div class="h2note"><span data-lang="es">Perfil bajo, y cuidado con la gente</span><span data-lang="en">Low profile, and care with people</span></div>
+    <ul class="clean">
+      <li><span data-lang="es"><strong>Enchufarse, no improvisar.</strong> Toda acción pasa por un organismo ya establecido.</span><span data-lang="en"><strong>Plug in, do not improvise.</strong> Every action goes through an already-established body.</span></li>
+      <li><span data-lang="es"><strong>Todo privado al inicio,</strong> 2FA obligatoria, mínimo permiso. Se muestra poco.</span><span data-lang="en"><strong>Everything private at first,</strong> mandatory 2FA, least privilege. Show little.</span></li>
+      <li><span data-lang="es"><strong>No exponer quién está dentro del país ni quién hace qué.</strong> Con vigilancia y censura, eso puede poner a alguien en riesgo. Seudónimos permitidos.</span><span data-lang="en"><strong>Do not expose who is inside the country or who does what.</strong> With surveillance and censorship, that can put someone at risk. Pseudonyms allowed.</span></li>
+      <li><span data-lang="es"><strong>Nada de datos personales, médicos o de ubicación de víctimas</strong> en espacios públicos.</span><span data-lang="en"><strong>No personal, medical or victim-location data</strong> in public spaces.</span></li>
+      <li><span data-lang="es"><strong>Venezuela bloquea muchos sitios.</strong> Este plan existe también como PDF descargable, no solo como página.</span><span data-lang="en"><strong>Venezuela blocks many sites.</strong> This plan also exists as a downloadable PDF, not only as a page.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Autoría, datos y recursos</span><span data-lang="en">Authorship, data and resources</span></h2>
+    <div class="h2note"><span data-lang="es">Las reglas, en breve</span><span data-lang="en">The rules, in brief</span></div>
+    <ul class="clean">
+      <li><span data-lang="es"><strong>El joven investigador es primer autor por diseño.</strong> Usamos la taxonomía CRediT. La mentoría es autor senior solo si contribuye intelectualmente.</span><span data-lang="en"><strong>The young researcher is first author by design.</strong> We use the CRediT taxonomy. A mentor is senior author only with genuine intellectual contribution.</span></li>
+      <li><span data-lang="es"><strong>La infraestructura no es autoría.</strong> GitHub, cómputo, Overleaf y coordinación van en agradecimientos, nunca como autor. La red no busca figurar.</span><span data-lang="en"><strong>Infrastructure is not authorship.</strong> GitHub, compute, Overleaf and coordination go in acknowledgements, never as an author. The network does not seek billing.</span></li>
+      <li><span data-lang="es"><strong>Consentimiento y datos.</strong> Recogemos un perfil con fin único de emparejar y coordinar, con consentimiento explícito y alineado al RGPD. Datos sensibles de investigación van por una vía privada con visto bueno ético.</span><span data-lang="en"><strong>Consent and data.</strong> We collect a profile for the sole purpose of matching and coordinating, with explicit, GDPR-aligned consent. Sensitive research data goes through a private path with ethics clearance.</span></li>
+      <li><span data-lang="es"><strong>Recursos por etapas.</strong> Overleaf, cómputo y DOI se entregan contra entregables, no por inscribirse. Los proyectos que se estancan quedan en un backlog visible y pueden revivirse.</span><span data-lang="en"><strong>Staged resources.</strong> Overleaf, compute and DOIs are granted against deliverables, not on sign-up. Stalled projects sit in a visible backlog and can revive.</span></li>
+    </ul>
+    <div class="box warn">
+      <div class="lbl"><span data-lang="es">Nota</span><span data-lang="en">Note</span></div>
+      <p style="margin:0;color:var(--ink)"><span data-lang="es">Antes de abrir el intake y mover datos de miembros o de pacientes, conviene que alguien con base en protección de datos revise el consentimiento, sobre todo por los miembros en la UE.</span><span data-lang="en">Before opening the intake and moving member or patient data, someone with a data-protection background should review the consent, especially given members in the EU.</span></p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span data-lang="es">Recursos del repositorio</span><span data-lang="en">Repository resources</span></h2>
+    <div class="h2note"><span data-lang="es">El plan completo, en detalle, en los dos idiomas</span><span data-lang="en">The full plan, in detail, in both languages</span></div>
+    <p><span data-lang="es">Esta página es la puerta de entrada. Cada documento en detalle vive en el repositorio, en español e inglés. Toca para leerlo.</span><span data-lang="en">This page is the front door. Each detailed document lives in the repository, in Spanish and English. Tap to read it.</span></p>
+    <div class="ideas" id="resources"></div>
+    <p style="margin-top:12px;color:var(--faint);font-size:.86rem"><span data-lang="es">Si el nombre de tu organización o repo es distinto, edita la constante REPO en el código de esta página.</span><span data-lang="en">If your organization or repo name differs, edit the REPO constant in this page's code.</span></p>
+  </section>
+
+  <footer>
+    <div class="f">Conexión RedJIV</div>
+    <small><span data-lang="es">Red de Jóvenes Investigadores de Venezuela · perfil bajo · documento vivo</span><span data-lang="en">Network of Young Venezuelan Researchers · low profile · living document</span></small>
+  </footer>
+
+</main>
+
+<script>
+  var CONTACT = "redjiv2025@gmail.com";
+  function setLang(l){
+    document.documentElement.classList.toggle('en', l==='en');
+    document.documentElement.lang = l;
+    document.getElementById('bes').classList.toggle('on', l==='es');
+    document.getElementById('ben').classList.toggle('on', l==='en');
+  }
+  var subj = encodeURIComponent("Quiero sumarme a Conexion RedJIV");
+  document.getElementById('joinlink').href = "mailto:"+CONTACT+"?subject="+subj;
+
+  var IDEAS = [
+    [1,"Minerales del suelo y salud mental","Medicina × Geología","B · D"],
+    [2,"Contaminantes orgánicos, redes en Mérida","Química × Biología","C"],
+    [3,"IA y medios granulares","IA × Física","B"],
+    [4,"Infraestructura para rescatar el conocimiento","Física × Infra abierta","E"],
+    [5,"Comunicación química bajo ruido urbano","Química × Herpetología",""],
+    [6,"Espectroscopía y electroquímica","Q. física × Electroquímica",""],
+    [7,"Microplásticos y enfermedades autoinmunes","Polímeros × Inmunología","C"],
+    [8,"Optimización de sistemas catalíticos","Matemáticas × Química",""],
+    [9,"Tafonomía molecular de fósiles","Paleontología × Q. comput.",""],
+    [10,"Reproducibilidad y cómputo en la nube","Sistemas complejos × Cómputo","E"],
+    [11,"Cromóforos de briofitas","Fotoquímica × Botánica",""],
+    [12,"Altas energías y fotoquímica","Física teórica × Fotoquímica",""],
+    [13,"Antibióticos en aguas residuales","Virología × Control","C"],
+    [14,"Nodos de movilidad urbana con grafos","Física × Geografía","A"],
+    [15,"Biodisponibilidad de antiparasitarios","Farmacia × Epidemiología","D"],
+    [16,"Escalando investigación temprana","Q. formulación × Cómputo","E"],
+    [17,"Diagnósticos en inmunología con datos VE","Inmunología × Física","D"],
+    [18,"Intervenciones antimaláricas, sur de VE","Medicina × Física","A · D"],
+    [19,"Fisiología cuantitativa en parásitos","Q. medicinal × Fisiología",""],
+    [20,"Control orbital para el Atelopus cruciger","Biología × Física",""]
+  ];
+  var box = document.getElementById('ideas');
+  IDEAS.forEach(function(it){
+    var active = it[3] !== "";
+    var el = document.createElement('div'); el.className='idea';
+    el.innerHTML =
+      '<span class="n">'+String(it[0]).padStart(2,'0')+'</span>'+
+      '<span class="t"><b>'+it[1]+'</b><span>'+it[2]+'</span></span>'+
+      '<span class="pill '+(active?'act':'bk')+'">'+(active?('→ '+it[3]):'backlog')+'</span>';
+    box.appendChild(el);
+  });
+
+  var REPO = "https://github.com/venezuela-org/plan/blob/main/";
+  var DOCS = [
+    ["1","El plan","The plan","docs/es/1-plan.md","docs/en/1-plan.md"],
+    ["2","Los grupos y el reto","The groups and the challenge","docs/es/2-grupos-y-reto.md","docs/en/2-groups-and-challenge.md"],
+    ["3","Plan de acción y pasos","Action plan and steps","docs/es/3-plan-de-accion.md","docs/en/3-action-plan.md"],
+    ["4","Ideas e inventario","Ideas and people","docs/es/4-ideas-e-inventario.md","docs/en/4-ideas-and-people.md"],
+    ["5","Autoría, datos y recursos","Authorship, data and resources","docs/es/5-gobernanza.md","docs/en/5-governance.md"],
+    ["6","Nota para el comité","Committee note","docs/es/6-nota-comite.md","docs/en/6-committee-note.md"]
+  ];
+  var rbox = document.getElementById('resources');
+  DOCS.forEach(function(d){
+    var isEn = document.documentElement.classList.contains('en');
+    var el = document.createElement('a');
+    el.className='idea'; el.style.textDecoration='none'; el.style.color='inherit'; el.style.cursor='pointer';
+    el.setAttribute('data-es', REPO+d[3]); el.setAttribute('data-en', REPO+d[4]);
+    el.href = REPO + (isEn ? d[4] : d[3]);
+    el.innerHTML =
+      '<span class="n">'+String(d[0]).padStart(2,'0')+'</span>'+
+      '<span class="t"><b data-lang="es" style="display:inline">'+d[1]+'</b><b data-lang="en" style="display:none">'+d[2]+'</b></span>'+
+      '<span class="pill act" style="text-transform:none">'+'ES / EN'+'</span>';
+    rbox.appendChild(el);
+  });
+  function syncResourceLangLinks(){
+    var isEn = document.documentElement.classList.contains('en');
+    rbox.querySelectorAll('a').forEach(function(a){ a.href = a.getAttribute(isEn?'data-en':'data-es'); });
+  }
+  var _setLang = setLang;
+  setLang = function(l){ _setLang(l); syncResourceLangLinks(); };
+</script>
+</body>
+</html>
