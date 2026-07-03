@@ -36,7 +36,7 @@ Shelter disease-surveillance checklist, psychological first-aid material, and a 
 
 ### E · Data, compute and coordination backbone
 Holds up the rest: the repo, compute, data hosting, the board, and the mechanism to channel and fund the effort.
-- Lead: Arturo Sánchez, Luis Montilla or José Hugo García.
+- Lead: Luis Montilla or José Hugo García (network coordination).
 - Team: Diego Baptista (computer science), Roberto Florez Ablan, Víctor Guzmán, Gabriela Quintero.
 - Ideas it draws on: 4 (infrastructure for knowledge rescue), 10 (reproducibility and cloud), 16 (scaling early research, which here channels the funding).
 - First deliverable (day zero): a live GitHub organization, coordination repo and open board. See `3-action-plan.md`.
@@ -45,25 +45,26 @@ Holds up the rest: the repo, compute, data hosting, the board, and the mechanism
 
 E first, since it enables the rest. Then A and C, which deliver fast with low data dependency. D is the strong fourth, as soon as the three are running. B runs in parallel if Saúl and Liliana have bandwidth.
 
-## The challenge: CoAfina Emergency edition
+## The challenge: a long-term hackathon
 
-We run the five groups as a thematic CoAfina edition, with the meetings of Jul 10, Jul 24 and Aug 7 as checkpoints. This is not a long-term plan, it is an action with a date.
+We run the five groups as a long-term hackathon, a CoAfina edition, with the meetings of Jul 10, Jul 24 and Aug 7 as sprints. It does not end in a weekend: it sustains the effort from response to reconstruction. This is the first time the network does something like this in Venezuela, together with CoAfina.
 
-## Prizes and incentives
+## The incentive: keeping the momentum
 
-With a low profile, the prize is not fame for the network. It is for the person:
+More than a prize, what we want is for the effort to count and not fade. So:
 
+- **Groups by expertise.** Each person joins where they can truly contribute, so no effort is wasted.
+- **Keeping the momentum.** Sprints and deliverables set a rhythm, and the work is seen to advance from one meeting to the next.
 - **Authorship.** The student who leads the work is first author of the output. See `5-governance.md`.
-- **Resources.** A package for the team: compute or GPU as needed, Overleaf premium, a Zotero group, and a Zenodo DOI for data and code.
-- **Internal recognition,** at the network meeting and, where applicable, before the responding bodies. No press sought.
-- **A small cash prize** per featured group, to be defined by budget.
+- **Drawing support.** Good work can draw the attention of other organizations willing to add resources, without the network seeking the spotlight.
+- **Resources.** Compute or GPU as needed, Overleaf, a Zotero group, and a Zenodo DOI for data and code.
 
-Structure: one prize per group. Group E, the backbone, does not compete, it hosts. A short jury of two senior leads not competing that cycle, plus a coordination point. Criterion: real usefulness for the emergency, quality and reproducibility. Deliverables are rewarded, not promises.
+There may be a modest cash recognition per featured group, on the order of 1,000 CHF or 1,200 USD, depending on available funding. It is not the headline: in an emergency the point is to help and keep the momentum, not to compete for money. Deliverables are recognized, not promises.
 
 ## Financing
 
-- The Venezuelan chapter serving as funding channel. [Confirm name and available amount.]
-- CoAfina as the frame of the thematic edition and possible prize contributor.
+- Creative Commons Venezuela (the Venezuelan chapter of Creative Commons), as the funding channel.
+- CoAfina as the frame of this first edition in Venezuela.
 - Cloud compute credits requested in the network's name, to cover the technical side without direct spend.
 
-Rule: money and resources are granted against deliverables, not on sign-up. This keeps the teams alive.
+Rule: resources are granted against deliverables, not on sign-up. This keeps the teams alive.

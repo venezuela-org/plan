@@ -36,7 +36,7 @@ Lista de vigilancia de enfermedades en refugios, material de primeros auxilios p
 
 ### E · Backbone de datos, cómputo y coordinación
 Sostiene a los demás: el repo, cómputo, hosting de datos, el tablero y el mecanismo para canalizar y financiar el esfuerzo.
-- Lead: Arturo Sánchez, Luis Montilla o José Hugo García.
+- Lead: Luis Montilla o José Hugo García (coordinación de la red).
 - Equipo: Diego Baptista (ciencias de la computación), Roberto Florez Ablan, Víctor Guzmán, Gabriela Quintero.
 - Ideas que aporta: 4 (infraestructura para rescate del conocimiento), 10 (reproducibilidad y nube), 16 (escalar investigación temprana, que aquí canaliza el financiamiento).
 - Primer entregable (día cero): organización de GitHub viva, repo de coordinación y tablero abierto. Ver `3-plan-de-accion.md`.
@@ -45,25 +45,26 @@ Sostiene a los demás: el repo, cómputo, hosting de datos, el tablero y el meca
 
 E primero, porque habilita a los demás. Luego A y C, que dan resultado rápido con baja dependencia de datos. D es el cuarto fuerte, apenas los tres rueden. B entra en paralelo si Saúl y Liliana tienen ancho de banda.
 
-## El reto: edición CoAfina Emergencia
+## El reto: un hackathon de largo plazo
 
-Corremos los cinco grupos como una edición temática de CoAfina, con los encuentros del 10-JUL, 24-JUL y 07-AGO como puntos de control. No es un plan a largo plazo, es una acción con fecha.
+Corremos los cinco grupos como un hackathon de largo plazo, una edición de CoAfina, con los encuentros del 10-JUL, 24-JUL y 07-AGO como sprints. No termina en un fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción. Es la primera vez que la red hace algo así en Venezuela, de la mano de CoAfina.
 
-## Premios e incentivos
+## El incentivo: mantener el impulso
 
-Con perfil bajo, el premio no es fama para la red. Es para la persona:
+Más que un premio, lo que buscamos es que el esfuerzo cuente y no se apague. Por eso:
 
+- **Grupos por experticia.** Cada quien entra donde de verdad puede aportar, para que ningún esfuerzo se pierda.
+- **Mantener el impulso.** Los sprints y los entregables dan ritmo, y el trabajo se ve avanzar de un encuentro al siguiente.
 - **Autoría.** El estudiante que lleva el trabajo sale como primer autor de la salida. Ver `5-gobernanza.md`.
-- **Recursos.** Paquete para el equipo: cómputo o GPU según necesidad, Overleaf premium, grupo de Zotero y un DOI de Zenodo para datos y código.
-- **Reconocimiento interno,** en el encuentro de la red y, cuando aplique, ante los organismos que responden. Sin buscar prensa.
-- **Micro-premio en efectivo** por grupo destacado, a definir según el presupuesto.
+- **Atraer apoyo.** El trabajo bien hecho puede llamar la atención de otras organizaciones que quieran sumar recursos, sin que la red busque figurar.
+- **Recursos.** Cómputo o GPU según necesidad, Overleaf, grupo de Zotero y un DOI de Zenodo para datos y código.
 
-Estructura: un premio por grupo. El grupo E, backbone, no compite, es el anfitrión. Jurado corto de dos leads senior que no compitan ese ciclo más un punto de coordinación. Criterio: utilidad real para la emergencia, calidad y reproducibilidad. Se premian entregables, no promesas.
+Puede haber un reconocimiento modesto en efectivo por grupo destacado, del orden de 1.000 CHF o 1.200 USD, según el financiamiento disponible. No es el titular: en una emergencia el punto es ayudar y mantener el impulso, no competir por dinero. Se reconocen entregables, no promesas.
 
 ## Financiamiento
 
-- El capítulo venezolano que sirve de canal de financiamiento. [Confirmar nombre y monto disponible.]
-- CoAfina como marco de la edición temática y posible aporte de premios.
+- Creative Commons Venezuela (el capítulo venezolano de Creative Commons), como canal de financiamiento.
+- CoAfina como marco de esta primera edición en Venezuela.
 - Créditos de cómputo en la nube solicitados a nombre de la red, para cubrir lo técnico sin gasto directo.
 
-Regla de manejo: el dinero y los recursos se entregan contra entregables, no por inscribirse. Esto mantiene los equipos vivos.
+Regla de manejo: los recursos se entregan contra entregables, no por inscribirse. Esto mantiene los equipos vivos.

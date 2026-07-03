@@ -105,7 +105,7 @@ Adjust the intake link and send it through the group's usual channel.
 > Two things. Everything is channeled through already-established bodies, we do not improvise in the zone. And if you were directly affected, say so with confidence: it is to know who may need support, not to leave anyone out.
 >
 > Thank you for being here. See you at the next meeting.
-> Arturo, Conexión RedJIV
+> Conexión RedJIV
 
 ## Security, recommendation
 

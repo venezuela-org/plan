@@ -105,7 +105,7 @@ Ajusta el enlace del intake y envíalo por el canal habitual del grupo.
 > Dos cosas. Todo se canaliza a través de organismos ya establecidos, no improvisamos en la zona. Y si te viste afectado directamente, dilo con confianza: es para saber quién puede necesitar apoyo, no para dejar a nadie fuera.
 >
 > Gracias por estar. Nos vemos en el próximo encuentro.
-> Arturo, Conexión RedJIV
+> Conexión RedJIV
 
 ## Seguridad, recomendación
 
