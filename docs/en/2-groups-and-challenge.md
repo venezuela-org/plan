@@ -11,7 +11,7 @@ Where aid is not reaching: damage, blocked roads and coverage gaps in La Guaira,
 - Lead: María Vincenti González (GIS, epidemiology) or Luis Montilla.
 - Team: Leonardo Manrique (graphs), Reybert Carrillo (geography), Barbara Montañes (physics).
 - Ideas it draws on: 14 (urban mobility graphs), 18 (geospatial analysis).
-- First deliverable (by Jul 24): a reproducible map with damage and accessibility layers and a coverage-gap list, plugged into OCHA.
+- First deliverable (by Jul 24): a reproducible map with damage and accessibility layers and a coverage-gap list, connected to OCHA.
 
 ### B · Aftershock, landslide and safe-siting risk
 Landslide and liquefaction susceptibility maps for the La Guaira coast and Caracas hillsides, a plain-language aftershock explainer, and safe-siting criteria for camps.

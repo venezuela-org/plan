@@ -43,7 +43,7 @@ Datos / Data:
 
 1. Lee la página o el documento 1. Read the page or document 1.
 2. Sigue el plan de acción, documento 3, para crear la organización, asegurarla e invitar a la gente. Follow the action plan, document 3, to create the organization, secure it and invite people.
-3. Súmate por el intake que enlaza la página. Join through the intake linked on the page.
+3. Para participar, sigue la coordinación descrita en el documento 3. To take part, follow the coordination described in document 3.
 
 ## Publicar la página / Publish the page
 

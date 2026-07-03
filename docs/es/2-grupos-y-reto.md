@@ -11,7 +11,7 @@ Dónde no está llegando la ayuda: daños, vías bloqueadas y vacíos de cobertu
 - Lead: María Vincenti González (GIS, epidemiología) o Luis Montilla.
 - Equipo: Leonardo Manrique (grafos), Reybert Carrillo (geografía), Barbara Montañes (física).
 - Ideas que aporta: 14 (grafos de movilidad urbana), 18 (análisis geoespacial).
-- Primer entregable (para el 24-JUL): mapa reproducible con capas de daño y accesibilidad y una lista de vacíos de cobertura, enchufado a OCHA.
+- Primer entregable (para el 24-JUL): mapa reproducible con capas de daño y accesibilidad y una lista de vacíos de cobertura, conectado a OCHA.
 
 ### B · Riesgo de réplicas, deslizamientos y sitio seguro
 Mapas de susceptibilidad a deslizamientos y licuefacción en la costa de La Guaira y las laderas de Caracas, explicador de réplicas en lenguaje claro y criterios de sitio seguro para campamentos.
