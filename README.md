@@ -56,3 +56,9 @@ To serve it as a site: Settings, Pages, Deploy from branch, main, root. If you p
 Antes de abrir el intake y mover datos de miembros o de pacientes, conviene una revisión de protección de datos, sobre todo por los miembros en la UE. No es asesoría legal.
 
 Before opening the intake and moving member or patient data, a data-protection review is advisable, especially given members in the EU. This is not legal advice.
+
+## Licencia / License
+
+Contenido bajo CC BY-SA 4.0. Conexión RedJIV, con el apoyo de Creative Commons Venezuela (https://ve.creativecommons.net/). Ilustraciones originales hechas con asistencia de IA, sin imágenes de terceros. Ver `LICENSE.md`.
+
+Content under CC BY-SA 4.0. Conexión RedJIV, supported by Creative Commons Venezuela. Original illustrations made with AI assistance, no third-party images. See `LICENSE.md`.
