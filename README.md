@@ -2,6 +2,8 @@
 
 No publicar esta carpeta. Es solo para la coordinación de Conexión RedJIV.
 
+**Empieza por `ops.html`.** Ábrelo en el navegador (en Mac: `open ops.html`) para ver todo el manual en una sola página, con diagramas y navegación. No subas `ops.html` a GitHub Pages: contiene información sensible.
+
 La página pública es `index.html` (y su fuente segura en `public/`). Todo lo que está aquí es interno o sensible: nombres de leads, ubicaciones dentro de Venezuela, estructura de GitHub, intake, gobernanza, seguridad y datos. Si el repositorio se vuelve público o se activa GitHub Pages, esta carpeta no debe quedar expuesta. Regla simple: si dudas, no lo publiques.
 
 ## Contenido
