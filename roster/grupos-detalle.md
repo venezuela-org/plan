@@ -1,3 +1,9 @@
+# PRIVADO · Detalle de grupos con nombres y leads
+
+No publicar. Sensible. Fuente del reparto por track.
+
+---
+
 # 2 · Los grupos y el reto
 
 Reenfocamos las 20 ideas del primer encuentro en cinco grupos de emergencia, y los corremos como una edición temática de CoAfina, con los próximos encuentros como puntos de control de sprint.

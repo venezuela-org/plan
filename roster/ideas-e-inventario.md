@@ -1,3 +1,9 @@
+# PRIVADO · Ideas e inventario (con ubicaciones inferidas)
+
+No publicar. Sensible: contiene ubicaciones inferidas dentro de Venezuela.
+
+---
+
 # 4 · Ideas e inventario de talento
 
 ## Las 20 ideas del primer encuentro
