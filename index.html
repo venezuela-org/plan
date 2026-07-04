@@ -30,6 +30,9 @@ a{color:var(--teal);word-break:break-word}
 .hero-ov .lead{color:var(--muted);margin-top:10px;max-width:70ch}
 .dg{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;margin:18px 0;box-shadow:0 6px 20px rgba(36,31,25,.05)}
 .dg svg{width:100%;height:auto;display:block}
+.voicecard{margin:18px 0;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;max-width:560px;box-shadow:0 1px 2px rgba(36,31,25,.04),0 8px 24px rgba(36,31,25,.05)}
+.voicecard .vlbl{font-family:var(--mono);font-size:.58rem;letter-spacing:.11em;text-transform:uppercase;color:var(--amber)}
+.voicecard audio{width:100%;margin-top:8px;display:block}
 .dg .cap{font-family:var(--mono);font-size:.58rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-top:8px}
 .callout{background:var(--teal-soft);border:1px solid #BFE2D9;border-radius:14px;padding:16px 18px;margin:18px 0}
 .callout h3{font-family:var(--display);font-weight:600;font-size:1.05rem;margin-bottom:6px}
@@ -68,7 +71,7 @@ a{color:var(--teal);word-break:break-word}
  body.nav-open .side{display:block}
  .main{padding:22px 18px 80px}
 }
-@media print{.top,.side,.ribbon,.menu-btn{display:none!important}.layout{display:block}.main{padding:0}.dg{break-inside:avoid}}
+@media print{.top,.side,.ribbon,.menu-btn,.voicecard{display:none!important}.layout{display:block}.main{padding:0}.dg{break-inside:avoid}}
 </style></head>
 <body>
 <div class="ribbon">Manual interno · Conexión RedJIV · para coordinación</div>
@@ -79,6 +82,7 @@ a{color:var(--teal);word-break:break-word}
   <section class="sec hero-ov" id="overview">
    <h1>Cómo funciona</h1>
    <p class="lead">Esto es el manual de operaciones de Conexión RedJIV: la reacción de una red de jóvenes investigadores venezolanos a los terremotos del 24 de junio de 2026. Trabajamos a distancia, con perfil bajo, canalizando por organismos establecidos. Abajo, el modelo en cuatro imágenes; a la izquierda, cada documento.</p>
+   <div class="voicecard"><span class="vlbl">La propuesta en tres minutos</span><audio controls preload="none" src="audio/bienvenida.mp3" onerror="this.parentNode.style.display='none'"></audio></div>
    <div class="callout"><h3>El modelo en una frase</h3><p style="margin:0">Un hackathon de largo plazo, edición de emergencia de CoAfina. Los encuentros de la red son los sprints. Las letras siguen el orden de arranque: A, B, C y D arrancan ya; E y F entran con condiciones. Cada track tiene un primer entregable remoto y de baja dependencia. Los recursos se liberan contra entregables, no por inscribirse.</p></div>
    <div class="statsmini"><div class="st"><div class="n">48</div><div class="l">investigadores</div></div><div class="st"><div class="n">9</div><div class="l">disciplinas</div></div><div class="st"><div class="n">14</div><div class="l">países</div></div><div class="st"><div class="n">6</div><div class="l">tracks</div></div></div>
    <div class="dg"><svg viewBox="0 0 820 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Modelo de hackathon de largo plazo con sprints">
