@@ -1,6 +1,6 @@
 # 01 · Plan de ejecución a 30 días
 
-Documento interno. Los encuentros de la red son los sprints: 10-JUL, 24-JUL, 07-AGO.
+Documento interno. Los encuentros quincenales de la red son los sprints; las semanas se cuentan desde el arranque, previsto en julio y con fechas por acordar.
 
 ## Principio de arranque
 
@@ -19,7 +19,7 @@ Empezamos con E, A, C y F. E habilita a los demás; A y C dan resultado rápido 
 - A: reunir capas abiertas (Copernicus EMS, USGS, evaluaciones satelitales) y definir el formato del mapa de vacíos de cobertura.
 - C: redactar la guía de agua segura y saneamiento para refugios a partir de fuentes OMS/WASH.
 - E: pipeline de datos y hosting listos; reglas de datos publicadas en el repo.
-- Checkpoint blando en el encuentro del 10-JUL.
+- Checkpoint blando en el primer encuentro (semana 2).
 
 ## Semana 3 (días 15 a 21)
 
@@ -33,7 +33,7 @@ Empezamos con E, A, C y F. E habilita a los demás; A y C dan resultado rápido 
 - C: guía MVP lista para imprimir y distribuir por el clúster WASH.
 - E: tablero al día, cifras de situación con fecha y fuente.
 - F: recomendación breve de interoperabilidad y protección de datos.
-- Checkpoint del 24-JUL: mostrar entregables MVP, no promesas.
+- Checkpoint del segundo encuentro (semana 4): mostrar entregables MVP, no promesas.
 
 ## Condiciones para D y B
 

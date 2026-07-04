@@ -6,7 +6,7 @@ Documento interno. Una página.
 
 **Perfil bajo por diseño.** No buscamos figurar. El crédito es de quien hace el trabajo. El silencio también protege a quienes están dentro del país.
 
-**Modelo.** Un hackathon de largo plazo, una edición de emergencia de CoAfina, con los encuentros de la red como sprints (10-JUL, 24-JUL, 07-AGO). No es una competencia de fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción.
+**Modelo.** Un hackathon de largo plazo, una edición de emergencia de CoAfina, con los encuentros quincenales de la red como sprints, contados desde el arranque (previsto en julio, fechas por acordar). No es una competencia de fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción.
 
 **Seis tracks.** A Mapa de necesidades y accesos. B Riesgo de réplicas y sitio seguro. C Agua segura y saneamiento. D Salud en refugios y salud mental. E Backbone de datos, cómputo y coordinación. F Mapeo del ecosistema digital de emergencia.
 

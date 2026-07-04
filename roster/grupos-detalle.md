@@ -17,7 +17,7 @@ Dónde no está llegando la ayuda: daños, vías bloqueadas y vacíos de cobertu
 - Lead: María Vincenti González (GIS, epidemiología) o Luis Montilla.
 - Equipo: Leonardo Manrique (grafos), Reybert Carrillo (geografía), Barbara Montañes (física).
 - Ideas que aporta: 14 (grafos de movilidad urbana), 18 (análisis geoespacial).
-- Primer entregable (para el 24-JUL): mapa reproducible con capas de daño y accesibilidad y una lista de vacíos de cobertura, conectado a OCHA.
+- Primer entregable (para el segundo encuentro, semana 4): mapa reproducible con capas de daño y accesibilidad y una lista de vacíos de cobertura, conectado a OCHA.
 
 ### B · Riesgo de réplicas, deslizamientos y sitio seguro
 Mapas de susceptibilidad a deslizamientos y licuefacción en la costa de La Guaira y las laderas de Caracas, explicador de réplicas en lenguaje claro y criterios de sitio seguro para campamentos.
@@ -31,7 +31,7 @@ Protocolo de calidad de agua de bajo costo y una guía práctica de purificació
 - Lead: Alejandro Goldar (sistemas de control, ULB) o Mariana Gelambi (Virginia Tech).
 - Equipo: Fernando Méndez (química analítica ambiental), Eduardo Rodríguez-Román (virología), Valentín Brito (polímeros).
 - Ideas que aporta: 13 (aguas residuales), 2 (contaminantes en agua), 7 (microplásticos).
-- Primer entregable (rápido, para el 10-JUL): la guía de purificación lista para imprimir y repartir, coordinada con el clúster WASH.
+- Primer entregable (rápido, para el primer encuentro, semana 2): la guía de purificación lista para imprimir y repartir, coordinada con el clúster WASH.
 
 ### D · Salud en refugios y salud mental
 Lista de vigilancia de enfermedades en refugios, material de primeros auxilios psicológicos y mapa de salud mental por región.
@@ -53,7 +53,7 @@ E primero, porque habilita a los demás. Luego A y C, que dan resultado rápido 
 
 ## El reto: un hackathon de largo plazo
 
-Corremos los cinco grupos como un hackathon de largo plazo, una edición de CoAfina, con los encuentros del 10-JUL, 24-JUL y 07-AGO como sprints. No termina en un fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción. Es la primera vez que la red hace algo así en Venezuela, de la mano de CoAfina.
+Corremos los cinco grupos como un hackathon de largo plazo, una edición de CoAfina, con los encuentros quincenales de la red como sprints, contados desde el arranque (previsto en julio, fechas por acordar). No termina en un fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción. Es la primera vez que la red hace algo así en Venezuela, de la mano de CoAfina.
 
 ## El incentivo: mantener el impulso
 
