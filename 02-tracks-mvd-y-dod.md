@@ -10,9 +10,10 @@ Documento interno. Cada primer entregable debe poder hacerse a distancia, con ba
 
 ## A · Mapa de necesidades y accesos (arranca ya)
 
-- MVD: mapa reproducible con capas de daño y accesibilidad y una lista de vacíos de cobertura, a partir de datos abiertos.
-- Definición de terminado: notebook o script reproducible, fuentes citadas, salida revisada por un segundo par, contacto de entrega en OCHA identificado.
-- Dependencias: capas abiertas (Copernicus EMS, USGS). Baja dependencia de terreno.
+- Regla de no duplicación: HOT ya corre "SOS Venezuela" (ChatMap en territorio, MapSwipe validando daños por IA, Tasking Manager con proyectos "Venezuela Earthquake 2026"). No construimos un mapa paralelo: contribuimos allí y analizamos encima.
+- MVD en dos frentes: (1) horas de contribución del grupo en MapSwipe y el Tasking Manager, medidas y coordinadas; (2) un análisis reproducible de vacíos de cobertura y accesibilidad construido sobre las capas de HOT/OSM, Copernicus EMS y USGS.
+- Definición de terminado: notebook o script reproducible, fuentes citadas (incluyendo HOT), salida revisada por un segundo par, contacto de entrega en OCHA identificado.
+- Dependencias: capas abiertas ya en producción por HOT. Baja dependencia de terreno.
 
 ## C · Agua segura y saneamiento (arranca ya)
 
