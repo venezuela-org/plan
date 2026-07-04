@@ -11,20 +11,19 @@ Reenfocamos las 20 ideas del primer encuentro en cinco grupos de emergencia, y l
 ## Los cinco grupos
 
 Cada grupo tiene un lead senior que valida y conecta con quienes responden, y estudiantes que ejecutan.
+### A · Backbone de datos, cómputo y coordinación
+Sostiene a los demás: el repo, cómputo, hosting de datos, el tablero y el mecanismo para canalizar y financiar el esfuerzo.
+- Lead: Luis Montilla o José Hugo García (coordinación de la red).
+- Equipo: Diego Baptista (ciencias de la computación), Roberto Florez Ablan, Víctor Guzmán, Gabriela Quintero.
+- Ideas que aporta: 4 (infraestructura para rescate del conocimiento), 10 (reproducibilidad y nube), 16 (escalar investigación temprana, que aquí canaliza el financiamiento).
+- Primer entregable (día cero): organización de GitHub viva, repo de coordinación y tablero abierto. Ver `3-plan-de-accion.md`.
 
-### A · Mapa de necesidades y accesos
+### B · Mapa de necesidades y accesos
 Dónde no está llegando la ayuda: daños, vías bloqueadas y vacíos de cobertura en La Guaira, Caracas y los estados afectados, para dárselo a quienes responden.
 - Lead: María Vincenti González (GIS, epidemiología) o Luis Montilla.
 - Equipo: Leonardo Manrique (grafos), Reybert Carrillo (geografía), Barbara Montañes (física).
 - Ideas que aporta: 14 (grafos de movilidad urbana), 18 (análisis geoespacial).
 - Primer entregable (para el segundo encuentro, semana 4): mapa reproducible con capas de daño y accesibilidad y una lista de vacíos de cobertura, conectado a OCHA.
-
-### B · Riesgo de réplicas, deslizamientos y sitio seguro
-Mapas de susceptibilidad a deslizamientos y licuefacción en la costa de La Guaira y las laderas de Caracas, explicador de réplicas en lenguaje claro y criterios de sitio seguro para campamentos.
-- Lead: Saúl Escobar o Liliana López (geología, UCV, dentro del país).
-- Equipo: Reybert Carrillo, Raffaella Martínez (medios granulares), José Hugo García (IA).
-- Ideas que aporta: 1 (Saúl ya tiene mapas regionales de suelo), 3 (medios granulares).
-- Primer entregable: capa de susceptibilidad y guía de una página sobre réplicas, coordinado con FUNVISIS.
 
 ### C · Agua segura y saneamiento
 Protocolo de calidad de agua de bajo costo y una guía práctica de purificación y saneamiento para refugios.
@@ -33,23 +32,23 @@ Protocolo de calidad de agua de bajo costo y una guía práctica de purificació
 - Ideas que aporta: 13 (aguas residuales), 2 (contaminantes en agua), 7 (microplásticos).
 - Primer entregable (rápido, para el primer encuentro, semana 2): la guía de purificación lista para imprimir y repartir, coordinada con el clúster WASH.
 
-### D · Salud en refugios y salud mental
+### E · Salud en refugios y salud mental
 Lista de vigilancia de enfermedades en refugios, material de primeros auxilios psicológicos y mapa de salud mental por región.
 - Lead: Juan Carlos Gabaldón (medicina, parasitología) o María Vincenti (epidemiología).
 - Equipo: José Orejas (medicina, base de salud mental por región), Jamileth More (neurociencias, psicosocial), Eduar García, Soriuska Mayora, Fhabián Carrión-Nessi (inmunología), Jesús Afonso Urich (farmacia).
 - Ideas que aporta: 1, 15, 17, 18.
 - Nota: toca datos sensibles. Nada de datos de pacientes en repos públicos.
 
-### E · Backbone de datos, cómputo y coordinación
-Sostiene a los demás: el repo, cómputo, hosting de datos, el tablero y el mecanismo para canalizar y financiar el esfuerzo.
-- Lead: Luis Montilla o José Hugo García (coordinación de la red).
-- Equipo: Diego Baptista (ciencias de la computación), Roberto Florez Ablan, Víctor Guzmán, Gabriela Quintero.
-- Ideas que aporta: 4 (infraestructura para rescate del conocimiento), 10 (reproducibilidad y nube), 16 (escalar investigación temprana, que aquí canaliza el financiamiento).
-- Primer entregable (día cero): organización de GitHub viva, repo de coordinación y tablero abierto. Ver `3-plan-de-accion.md`.
+### F · Riesgo de réplicas, deslizamientos y sitio seguro
+Mapas de susceptibilidad a deslizamientos y licuefacción en la costa de La Guaira y las laderas de Caracas, explicador de réplicas en lenguaje claro y criterios de sitio seguro para campamentos.
+- Lead: Saúl Escobar o Liliana López (geología, UCV, dentro del país).
+- Equipo: Reybert Carrillo, Raffaella Martínez (medios granulares), José Hugo García (IA).
+- Ideas que aporta: 1 (Saúl ya tiene mapas regionales de suelo), 3 (medios granulares).
+- Primer entregable: capa de susceptibilidad y guía de una página sobre réplicas, coordinado con FUNVISIS.
 
 ## Prioridad para arrancar
 
-E primero, porque habilita a los demás. Luego A y C, que dan resultado rápido con baja dependencia de datos. D es el cuarto fuerte, apenas los tres rueden. B entra en paralelo si Saúl y Liliana tienen ancho de banda.
+A primero, porque habilita a los demás. Luego B y C, que dan resultado rápido con baja dependencia de datos, y D ordenando el ecosistema. E es el siguiente fuerte, apenas los cuatro rueden. F entra en paralelo si Saúl y Liliana tienen ancho de banda.
 
 ## El reto: un hackathon de largo plazo
 

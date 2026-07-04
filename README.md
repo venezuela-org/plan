@@ -19,7 +19,7 @@ La página pública es `index.html` (y su fuente segura en `public/`). Todo lo q
 - `08-presupuesto.md` Presupuesto y recursos.
 - `09-gobernanza-seguridad.md` Autoría, consentimiento, seguridad, protección de datos.
 - `10-decisiones-comite.md` Decisiones pendientes para el comité.
-- `11-ecosistema-directorio.md` Directorio de trabajo del ecosistema de plataformas (track F).
+- `11-ecosistema-directorio.md` Directorio de trabajo del ecosistema de plataformas (track D).
 - `roster/` Detalle con nombres, leads, inventario de talento (sensible).
 
 Idioma: estos documentos están en español, el idioma de trabajo de la coordinación. La página pública sí es bilingüe.

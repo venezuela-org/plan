@@ -12,26 +12,26 @@ Nada se pierde. Las que alimentan un grupo de emergencia se marcan con el grupo;
 
 | # | Idea | Disciplinas | Destino |
 |---|------|-------------|---------|
-| 1 | Minerales del suelo y salud mental | Medicina × Geología | Grupos B y D |
+| 1 | Minerales del suelo y salud mental | Medicina × Geología | Grupos F y E |
 | 2 | Contaminantes orgánicos, redes en Mérida | Química × Biología | Grupo C |
-| 3 | IA y medios granulares | IA × Física | Grupo B |
-| 4 | Infraestructura para rescatar el conocimiento | Física × Infra abierta | Grupo E |
+| 3 | IA y medios granulares | IA × Física | Grupo F |
+| 4 | Infraestructura para rescatar el conocimiento | Física × Infra abierta | Grupo A |
 | 5 | Comunicación química bajo ruido urbano | Química × Herpetología | Backlog |
 | 6 | Espectroscopía y electroquímica | Q. física × Electroquímica | Backlog |
 | 7 | Microplásticos y enfermedades autoinmunes | Polímeros × Inmunología | Grupo C |
 | 8 | Optimización de sistemas catalíticos | Matemáticas × Química | Backlog |
 | 9 | Tafonomía molecular de fósiles | Paleontología × Q. comput. | Backlog |
-| 10 | Reproducibilidad y cómputo en la nube | Sistemas complejos × Cómputo | Grupo E |
+| 10 | Reproducibilidad y cómputo en la nube | Sistemas complejos × Cómputo | Grupo A |
 | 11 | Cromóforos de briofitas | Fotoquímica × Botánica | Backlog |
 | 12 | Altas energías y fotoquímica | Física teórica × Fotoquímica | Backlog |
 | 13 | Antibióticos en aguas residuales | Virología × Control | Grupo C |
-| 14 | Nodos de movilidad urbana con grafos | Física × Geografía | Grupo A |
-| 15 | Biodisponibilidad de antiparasitarios | Farmacia × Epidemiología | Grupo D |
-| 16 | Escalando investigación temprana | Q. formulación × Cómputo | Grupo E |
-| 17 | Diagnósticos en inmunología con datos VE | Inmunología × Física | Grupo D |
-| 18 | Intervenciones antimaláricas, sur de VE | Medicina × Física | Grupos A y D |
+| 14 | Nodos de movilidad urbana con grafos | Física × Geografía | Grupo B |
+| 15 | Biodisponibilidad de antiparasitarios | Farmacia × Epidemiología | Grupo E |
+| 16 | Escalando investigación temprana | Q. formulación × Cómputo | Grupo A |
+| 17 | Diagnósticos en inmunología con datos VE | Inmunología × Física | Grupo E |
+| 18 | Intervenciones antimaláricas, sur de VE | Medicina × Física | Grupos B y E |
 | 19 | Fisiología cuantitativa en parásitos | Q. medicinal × Fisiología | Backlog (sin descripción) |
-| 20 | Control orbital para el Atelopus cruciger | Biología × Física | Backlog (la destreza puede sumarse a A o C) |
+| 20 | Control orbital para el Atelopus cruciger | Biología × Física | Backlog (la destreza puede sumarse a B o C) |
 
 La fortaleza real del primer encuentro fueron las duplas entre disciplinas que normalmente no se hablan. Esa mezcla es la que hace posible reenfocar rápido.
 

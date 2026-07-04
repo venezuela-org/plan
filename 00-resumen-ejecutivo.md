@@ -8,11 +8,11 @@ Documento interno. Una página.
 
 **Modelo.** Un hackathon de largo plazo, una edición de emergencia de CoAfina, con los encuentros quincenales de la red como sprints, contados desde el arranque (previsto en julio, fechas por acordar). No es una competencia de fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción.
 
-**Seis tracks.** A Mapa de necesidades y accesos. B Riesgo de réplicas y sitio seguro. C Agua segura y saneamiento. D Salud en refugios y salud mental. E Backbone de datos, cómputo y coordinación. F Mapeo del ecosistema digital de emergencia.
+**Seis tracks, en orden de arranque.** A Backbone de datos, cómputo y coordinación. B Mapa de necesidades y accesos. C Agua segura y saneamiento. D Mapeo del ecosistema digital de emergencia. E Salud en refugios y salud mental. F Riesgo de réplicas y sitio seguro.
 
-**Arranque realista.** Empezamos con E, A, C y F. D arranca cuando estén listas las salvaguardas de privacidad y ética. B arranca solo si los leads de geociencias confirman disponibilidad y datos fuente. Cada track tiene un primer entregable que se puede hacer a distancia con baja dependencia de datos de terreno no disponibles.
+**Arranque realista.** Empezamos con A, B, C y D: las letras siguen el orden de arranque. E arranca cuando estén listas las salvaguardas de privacidad y ética. F arranca solo si los leads de geociencias confirman disponibilidad y datos fuente. Cada track tiene un primer entregable que se puede hacer a distancia con baja dependencia de datos de terreno no disponibles.
 
-**Qué entregamos en 30 días.** Un backbone vivo (repo, tablero, datos), una guía de agua segura lista para imprimir, un primer mapa reproducible de vacíos de cobertura, y un primer directorio verificado del ecosistema de plataformas (track F). Detalle en `02-tracks-mvd-y-dod.md`.
+**Qué entregamos en 30 días.** Un backbone vivo (repo, tablero, datos), una guía de agua segura lista para imprimir, un primer mapa reproducible de vacíos de cobertura, y un primer directorio verificado del ecosistema de plataformas (track D). Detalle en `02-tracks-mvd-y-dod.md`.
 
 **Incentivo.** Utilidad real, autoría de primera para el joven investigador, mentoría y continuidad. El premio en efectivo es secundario y modesto, atado a entregables, no a inscribirse. Ver `08-presupuesto.md`.
 

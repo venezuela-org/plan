@@ -29,7 +29,7 @@ Documento interno. Estructura de GitHub, no publicar.
 respuesta-emergencia/
   README.md
   tracks/
-    A-mapa/  B-riesgo/  C-agua/  D-salud/  E-backbone/
+    A-base/  B-mapa/  C-agua/  D-ecosistema/  E-salud/  F-riesgo/
   datos/
     README.md   reglas de datos, nada sensible en publico
   situacion/
@@ -43,13 +43,13 @@ Captadas -> Con enfoque -> Activo -> Apuntando a salida -> Entregado
                                                             Latente (pausado)
 ```
 
-Carga inicial: A y C en Con enfoque, E en Activo, D y B en Captadas.
+Carga inicial: A en Activo; B, C y D en Con enfoque; E y F en Captadas.
 
 Comandos (Mac):
 
 ```bash
 mkdir respuesta-emergencia && cd respuesta-emergencia
-mkdir -p tracks/A-mapa tracks/B-riesgo tracks/C-agua tracks/D-salud tracks/E-backbone datos situacion
+mkdir -p tracks/A-base tracks/B-mapa tracks/C-agua tracks/D-ecosistema tracks/E-salud tracks/F-riesgo datos situacion
 printf '# Respuesta emergencia\n' > README.md
 git init && git add . && git commit -m "Arranque"
 git branch -M main

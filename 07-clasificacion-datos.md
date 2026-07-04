@@ -32,6 +32,6 @@ Nunca, en ningún repo.
 
 Regla: los ejemplos públicos usan datos sintéticos o agregados. Los proyectos con datos sensibles arrancan privados y con plan de datos aprobado.
 
-## Regla para el ecosistema de plataformas (track F)
+## Regla para el ecosistema de plataformas (track D)
 
 Los datos que manejan las plataformas ciudadanas (nombres, cédulas, fotos, ubicaciones de hospitales, datos de salud, datos de menores) son Sensibles o Prohibidos de duplicar. Nunca los copiamos, espejamos ni reproducimos. Solo enlazamos, describimos y advertimos. Los datos de menores no se comparten ni se publican en ningún caso; la reunificación va por autoridades, UNICEF y CICR.

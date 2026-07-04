@@ -14,7 +14,7 @@ Documento interno. P probabilidad, I impacto (A alto, M medio, B bajo).
 | Dependencia de una sola persona | M | A | Documentar todo, dos puntos de contacto por track | Coordinación |
 | Dependencia de servicios externos (tipografías, enlaces) | M | B | Página ligera, tipografías con alternativa del sistema, sin contenido incrustado, PDF de respaldo | Lead técnico |
 
-Riesgos del ecosistema digital (track F):
+Riesgos del ecosistema digital (track D):
 
 | Riesgo | P | I | Mitigación | Dueño |
 |---|---|---|---|---|
