@@ -2,11 +2,11 @@
 
 Documento interno. Una página.
 
-**Qué es.** La reacción de Conexión RedJIV a los terremotos del 24 de junio de 2026. Tomamos el talento y las ideas de la red y los ponemos a producir cosas útiles a distancia, canalizando todo a través de organismos ya establecidos (ONU OCHA, UNICEF, Direct Relief, FUNVISIS). No hacemos rescate ni improvisamos en la zona.
+**Qué es.** La reacción de la Red de Jóvenes Investigadores de Venezuela (RedJIV), un grupo de la ACFIMAN, a los terremotos del 24 de junio de 2026: Conexión RedJIV. Tomamos el talento y las ideas de la red y los ponemos a producir cosas útiles a distancia, canalizando todo a través de organismos ya establecidos (ONU OCHA, UNICEF, Direct Relief, FUNVISIS). No hacemos rescate ni improvisamos en la zona.
 
 **Perfil bajo por diseño.** No buscamos figurar. El crédito es de quien hace el trabajo. El silencio también protege a quienes están dentro del país.
 
-**Modelo.** Un hackathon de largo plazo, una edición de emergencia de CoAfina, con los encuentros quincenales de la red como sprints, contados desde el arranque (previsto en julio, fechas por acordar). No es una competencia de fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción.
+**Modelo.** Un hackathon distribuido y de largo plazo: nadie viaja, los encuentros son virtuales y el Discord es el punto de encuentro, con canales por track. Es una edición de emergencia de CoAfina, con los encuentros quincenales de la red como sprints, contados desde el arranque (previsto en agosto, fechas por acordar). No es una competencia de fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción.
 
 **Seis tracks, en orden de arranque.** A Backbone de datos, cómputo y coordinación. B Mapa de necesidades y accesos. C Agua segura y saneamiento. D Mapeo del ecosistema digital de emergencia. E Salud en refugios y salud mental. F Riesgo de réplicas y sitio seguro.
 

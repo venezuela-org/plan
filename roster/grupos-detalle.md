@@ -52,7 +52,7 @@ A primero, porque habilita a los demás. Luego B y C, que dan resultado rápido 
 
 ## El reto: un hackathon de largo plazo
 
-Corremos los cinco grupos como un hackathon de largo plazo, una edición de CoAfina, con los encuentros quincenales de la red como sprints, contados desde el arranque (previsto en julio, fechas por acordar). No termina en un fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción. Es la primera vez que la red hace algo así en Venezuela, de la mano de CoAfina.
+Corremos los cinco grupos como un hackathon de largo plazo, una edición de CoAfina, con los encuentros quincenales de la red como sprints, contados desde el arranque (previsto en agosto, fechas por acordar). No termina en un fin de semana: sostiene el esfuerzo desde la respuesta hasta la reconstrucción. Es la primera vez que la red hace algo así en Venezuela, de la mano de CoAfina.
 
 ## El incentivo: mantener el impulso
 
