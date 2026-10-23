@@ -24,9 +24,9 @@ Documento interno.
 - Empezar todo privado.
 - 2FA obligatoria.
 - No exponer quién está dentro del país ni quién hace qué. Seudónimos permitidos.
-- Nada de datos personales, médicos o de ubicación de víctimas en repos públicos.
+- Nada de datos personales, médicos o de ubicación de víctimas, ni datos de pacientes, en ningún repositorio, público o privado. Ver `07-clasificacion-datos.md`.
 - Conectividad: plan también en PDF, canal alterno para compartir dentro del país.
 
 ## Pendiente
 
-Una revisión de protección de datos del consentimiento y de la vía de datos sensibles, antes de abrir el intake o mover datos de miembros o pacientes. No es asesoría legal.
+Una revisión de protección de datos del consentimiento y de la vía de datos sensibles, antes de abrir el intake o mover datos de miembros. Los datos de pacientes quedan fuera de los repositorios. No es asesoría legal.
