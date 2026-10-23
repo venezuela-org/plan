@@ -1,6 +1,6 @@
 # 09 · Gobernanza, seguridad y protección de datos
 
-Documento interno.
+Guía pública.
 
 ## Autoría y crédito
 
@@ -14,16 +14,16 @@ Documento interno.
 
 - Estándar tipo RGPD, hay miembros en la UE.
 - Se recoge un perfil de capacidades y un contacto privado.
-- Base legal: consentimiento. No se vende ni se comparte fuera de la red.
+- Base legal: consentimiento. Los nombres y el inventario existente se mantienen publicados con el acuerdo de los participantes; las respuestas nuevas del intake se gestionan por el canal de coordinación. No se venden datos.
 - Procesamiento con IA solo con consentimiento explícito y separado.
 - Derechos: ver, corregir, borrar, retirar.
 - Datos sensibles de investigación: nunca en repos públicos. Ver `07-clasificacion-datos.md`.
 
 ## Seguridad
 
-- Empezar todo privado.
+- El manual estudiantil es público. Los proyectos que manejan información interna o sensible empiezan en espacios privados con acceso restringido.
 - 2FA obligatoria.
-- No exponer quién está dentro del país ni quién hace qué. Seudónimos permitidos.
+- Mantener los nombres y responsabilidades acordados con los participantes; atender solicitudes de corrección o retirada. Seudónimos permitidos.
 - Nada de datos personales, médicos o de ubicación de víctimas, ni datos de pacientes, en ningún repositorio, público o privado. Ver `07-clasificacion-datos.md`.
 - Conectividad: plan también en PDF, canal alterno para compartir dentro del país.
 

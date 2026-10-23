@@ -1,6 +1,6 @@
-# PRIVADO · Detalle de grupos con nombres y leads
+# Grupos con nombres y leads · Manual público
 
-No publicar. Sensible. Fuente del reparto por track.
+Fuente del reparto por track. Los nombres se mantienen con el acuerdo de los participantes.
 
 ---
 

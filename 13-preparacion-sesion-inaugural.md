@@ -1,6 +1,6 @@
 # Preparación de la sesión inaugural: lista de control
 
-Uso interno de la coordinación. Marcar al verificar, no al empezar. Orden sugerido: primero lo que la demostración en vivo necesita, después lo que se muestra, por último las diapositivas.
+Lista pública de preparación; los detalles personales se gestionan por el canal restringido. Marcar al verificar, no al empezar. Orden sugerido: primero lo que la demostración en vivo necesita, después lo que se muestra, por último las diapositivas.
 
 ## Ya hecho
 
@@ -59,7 +59,7 @@ Uso interno de la coordinación. Marcar al verificar, no al empezar. Orden suger
 - [ ] Refrescar la caja de situación y su "última revisión"
 - [ ] Nota de voz: regrabar sin mes de arranque, o retirar la tarjeta de audio hasta tenerla
 - [ ] Enlace de Discord correcto en los CTA
-- [ ] Decidir la visibilidad del repositorio `plan` o retirar el roster con nombres
+- [ ] Mantener `plan` y Pages públicos para estudiantes; comprobar que solo contienen guías, roles y resúmenes sin datos personales
 - [ ] Validación obligatoria tras cada cambio: cero rayas largas, cero fechas duras, cero nombres privados en el índice público, seis letras de línea, `node --check`
 
 ## Caso real: LAGO Mérida (laa-hecap/LAGO-merida-infra)

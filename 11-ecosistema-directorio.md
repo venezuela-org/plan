@@ -1,6 +1,6 @@
 # 11 · Directorio del ecosistema de emergencia (track D)
 
-Documento interno de trabajo. Es la versión detallada del track D. La página pública muestra una versión resumida y segura.
+Guía pública de trabajo del track D. Solo describe plataformas y canales institucionales; no reproduce datos de personas.
 
 ## Reglas
 

@@ -1,6 +1,6 @@
-# PRIVADO · Ideas e inventario (con ubicaciones inferidas)
+# Ideas e inventario de la red
 
-No publicar. Sensible: contiene ubicaciones inferidas dentro de Venezuela.
+Inventario de referencia de la red. Las ubicaciones inferidas se conservan como hipótesis por confirmar, no como datos verificados.
 
 ---
 

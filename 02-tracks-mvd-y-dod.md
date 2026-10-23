@@ -1,6 +1,6 @@
 # 02 · Tracks: entregable mínimo viable y definición de terminado
 
-Documento interno. Cada primer entregable debe poder hacerse a distancia, con baja dependencia de datos de terreno no disponibles.
+Guía pública. Cada primer entregable debe poder hacerse a distancia, con baja dependencia de datos de terreno no disponibles.
 
 ## A · Backbone de datos, cómputo y coordinación (arranca ya)
 

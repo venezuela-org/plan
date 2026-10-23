@@ -1,6 +1,6 @@
 # 03 · Matriz RACI y dueños
 
-Documento interno y sensible: contiene nombres. R responsable, A rinde cuentas, C consultado, I informado. Leads propuestos y por confirmar.
+Versión pública con los nombres y responsabilidades acordados con los participantes. R responsable, A rinde cuentas, C consultado, I informado. Leads propuestos y por confirmar.
 
 | Actividad | Coordinación | Lead científico | Lead técnico | Mentoría | Miembros |
 |---|---|---|---|---|---|

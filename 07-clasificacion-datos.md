@@ -1,26 +1,27 @@
 # 07 · Clasificación de datos
 
-Documento interno. Cuatro niveles. Ante la duda, sube el nivel.
+Guía pública. Cuatro niveles. Ante la duda, sube el nivel.
 
 ## Público
 
 Se puede publicar en la página o en un repo público.
-- La descripción de los tracks sin nombres ni ubicaciones.
+- La descripción de los tracks y los nombres y equipos acordados con los participantes.
 - El modelo de hackathon largo y las fechas de sprint.
 - Cifras de situación con fecha y fuente, marcadas como preliminares.
 - Licencia, créditos y contactos públicos (Discord, Creative Commons Venezuela).
+- Este manual estudiantil: guías de participación, plan por tracks, RACI con leads propuestos, presupuesto orientativo, riesgos e inventario existente de la red.
 
 ## Interno
 
 Solo para la coordinación y la red, en repos privados.
-- Plan a 30 días, RACI, presupuesto, registro de riesgos.
-- Estructura de GitHub y tableros.
+- Asignaciones nominales, deliberaciones del comité y registros de coordinación no destinados a estudiantes.
+- Detalles de acceso, credenciales y configuraciones operativas restringidas.
 
 ## Sensible
 
 Acceso restringido, cifrado en reposo cuando aplique.
-- Nombres y contactos de miembros, en especial dentro de Venezuela.
-- Estado o ubicación dentro del país.
+- Nombres y contactos de miembros que no se hayan acordado para publicación.
+- Ubicaciones individuales no acordadas para publicación. Las inferencias del inventario existente se señalan como pendientes de confirmación.
 - Datos de investigación agregados de salud.
 
 ## Prohibido en repos

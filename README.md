@@ -1,12 +1,14 @@
-# PRIVADO · Documentos de coordinación
+# Conexión RedJIV · Manual público
 
-No publicar esta carpeta. Es solo para la coordinación de Conexión RedJIV.
+Manual público para estudiantes y miembros de la red. El repositorio y GitHub Pages permanecen públicos para que cualquiera pueda consultar las herramientas, los tracks y las guías de participación sin iniciar sesión.
 
-**Empieza por `index.html`.** Ábrelo localmente en el navegador (en Mac: `open index.html`) para ver todo el manual en una sola página, con diagramas y navegación. Contiene nombres y detalles internos.
+**Empieza por [el manual web](https://venezuela-org.github.io/plan/).** También puedes abrir `index.html` localmente para consultar el manual en una sola página, con diagramas y navegación.
 
-Este repositorio contiene el manual interno; no contiene una carpeta `public/` ni una versión pública segura. La página pública de Conexión RedJIV se mantiene por separado en el repositorio `venezuela-org/site`. Todo lo que está aquí es interno o sensible: nombres de leads, ubicaciones dentro de Venezuela, estructura de GitHub, intake, gobernanza, seguridad y datos.
+El sitio de presentación de Conexión RedJIV se mantiene por separado en `venezuela-org/site`. Este repositorio contiene el manual de participación, los nombres y equipos por track, las ideas y el inventario de la red. No contiene una carpeta `public/` separada: tanto los archivos del repositorio como la web son públicos.
 
-El repositorio debe ser privado y el manual no debe servirse mediante Pages con acceso público. La etiqueta «PRIVADO» y `noindex` no restringen el acceso. La revisión mediante la API de GitHub del 23 de octubre de 2026 confirmó que el repositorio es público y Pages tiene acceso público, sirviendo la raíz de `main`. Estos ajustes requieren corrección en GitHub; editar este manual no los cambia. Retirar el acceso público y revisar también el historial y los archivos descargables con la coordinación antes de compartir cualquier enlace.
+Los participantes están de acuerdo con mantener sus nombres en el manual. Se conservan los leads propuestos, las asignaciones de equipo y el inventario existente para no perder información. Las propuestas y ubicaciones inferidas siguen marcadas como pendientes de confirmación. Cualquier participante puede solicitar una corrección o retirada a la coordinación.
+
+Las respuestas nuevas del intake y los registros que no se hayan acordado para publicación se gestionan por el canal de coordinación. La carpeta local `.private/` se ignora en Git para conservar copias de trabajo fuera de la web.
 
 ## Contenido
 
@@ -22,9 +24,9 @@ El repositorio debe ser privado y el manual no debe servirse mediante Pages con 
 - `09-gobernanza-seguridad.md` Autoría, consentimiento, seguridad, protección de datos.
 - `10-decisiones-comite.md` Decisiones pendientes para el comité.
 - `11-ecosistema-directorio.md` Directorio de trabajo del ecosistema de plataformas (track D).
-- `12-guion-sesion-inaugural.md` Guion interno de la sesión inaugural.
+- `12-guion-sesion-inaugural.md` Guion público de la sesión inaugural.
 - `13-preparacion-sesion-inaugural.md` Lista de preparación de la sesión.
-- `roster/` Detalle con nombres, leads, inventario de talento (sensible).
+- `roster/` Grupos con nombres y leads, ideas e inventario de talento.
 
 Idioma: estos documentos están en español, el idioma de trabajo de la coordinación. La página pública sí es bilingüe.
 
@@ -38,4 +40,4 @@ node scripts/sync-manual.mjs --check
 node --test tests/manual.test.mjs
 ```
 
-El primer comando actualiza las copias incrustadas en `index.html`; el segundo detecta documentos ausentes o desactualizados sin modificar archivos. El HTML sigue funcionando localmente sin servidor ni dependencias instaladas.
+El primer comando actualiza las copias incrustadas en `index.html`; el segundo detecta documentos ausentes o desactualizados sin modificar archivos. Solo se incluyen los documentos aprobados en `scripts/public-documents.mjs`; un archivo nuevo requiere revisión explícita antes de añadirlo. Las pruebas comprueban la coherencia del manual y que el inventario existente siga disponible. El HTML sigue funcionando localmente sin servidor ni dependencias instaladas.

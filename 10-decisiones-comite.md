@@ -1,8 +1,8 @@
 # 10 · Decisiones pendientes para el comité
 
-Documento interno. Lista corta para decidir sí, no, o cómo ajustar.
+Guía pública. Lista corta para decidir sí, no, o cómo ajustar.
 
-1. ¿La red es el vehículo para esto, o se hace vía Creative Commons Venezuela? (ver nota al comité, en `public/` no va).
+1. ¿La red es el vehículo para esto, o se hace vía Creative Commons Venezuela? Las notas privadas del comité se mantienen fuera de este repositorio.
 2. Confirmar el canal y el monto disponible de financiamiento en Creative Commons Venezuela.
 3. Confirmar leads y su disponibilidad en horas por semana, en especial los de geociencias para el track F.
 4. Aprobar las salvaguardas de datos y ética antes de arrancar el track E.

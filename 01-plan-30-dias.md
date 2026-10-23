@@ -1,6 +1,6 @@
 # 01 · Plan de ejecución a 30 días
 
-Documento interno. Los encuentros quincenales de la red son los sprints; las semanas se cuentan desde el arranque, previsto en agosto y con fechas por acordar.
+Guía pública. Los encuentros quincenales de la red son los sprints; las semanas se cuentan desde el arranque, con fechas por acordar.
 
 ## Principio de arranque
 
