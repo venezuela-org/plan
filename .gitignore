@@ -1,3 +1,2 @@
-# Local coordination records are never part of the public manual.
+# Local working copies are not published.
 /.private/
-/roster/*.xlsx

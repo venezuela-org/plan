@@ -4,11 +4,11 @@ Manual público para estudiantes y miembros de la red. El repositorio y GitHub P
 
 **Empieza por [el manual web](https://venezuela-org.github.io/plan/).** También puedes abrir `index.html` localmente para consultar el manual en una sola página, con diagramas y navegación.
 
-El sitio de presentación de Conexión RedJIV se mantiene por separado en `venezuela-org/site`. Este repositorio contiene el manual de participación, las responsabilidades por rol y resúmenes sin datos personales. No contiene una carpeta `public/` separada: tanto los archivos del repositorio como la web son públicos.
+El sitio de presentación de Conexión RedJIV se mantiene por separado en `venezuela-org/site`. Este repositorio contiene el manual de participación, los nombres y equipos por track, las ideas y el inventario de la red. No contiene una carpeta `public/` separada: tanto los archivos del repositorio como la web son públicos.
 
-Los nombres de leads propuestos, contactos, ubicaciones individuales, respuestas del intake e inventarios por persona se gestionan por un canal restringido de coordinación, fuera de este repositorio. No basta con omitirlos del menú: tampoco deben estar en el HTML, en los Markdown ni en archivos descargables. La carpeta local `.private/` y las hojas de cálculo del roster se ignoran en Git; esto evita incorporaciones accidentales y no sustituye el control de acceso del almacenamiento privado.
+Los participantes están de acuerdo con mantener sus nombres en el manual. Se conservan los leads propuestos, las asignaciones de equipo y el inventario existente para no perder información. Las propuestas y ubicaciones inferidas siguen marcadas como pendientes de confirmación. Cualquier participante puede solicitar una corrección o retirada a la coordinación.
 
-Las versiones anteriores contenían datos personales. Quitarlos de la versión actual no los elimina del historial de Git ni de copias ya publicadas; la coordinación debe revisar esa exposición por separado. El sitio estudiantil permanece público.
+Las respuestas nuevas del intake y los registros que no se hayan acordado para publicación se gestionan por el canal de coordinación. La carpeta local `.private/` se ignora en Git para conservar copias de trabajo fuera de la web.
 
 ## Contenido
 
@@ -26,7 +26,7 @@ Las versiones anteriores contenían datos personales. Quitarlos de la versión a
 - `11-ecosistema-directorio.md` Directorio de trabajo del ecosistema de plataformas (track D).
 - `12-guion-sesion-inaugural.md` Guion público de la sesión inaugural.
 - `13-preparacion-sesion-inaugural.md` Lista de preparación de la sesión.
-- `roster/` Roles por track e ideas sin nombres, contactos ni ubicaciones individuales.
+- `roster/` Grupos con nombres y leads, ideas e inventario de talento.
 
 Idioma: estos documentos están en español, el idioma de trabajo de la coordinación. La página pública sí es bilingüe.
 
@@ -40,4 +40,4 @@ node scripts/sync-manual.mjs --check
 node --test tests/manual.test.mjs
 ```
 
-El primer comando actualiza las copias incrustadas en `index.html`; el segundo detecta documentos ausentes o desactualizados sin modificar archivos. Solo se incluyen los documentos aprobados en `scripts/public-documents.mjs`; un archivo nuevo requiere revisión explícita antes de añadirlo. Las pruebas comprueban también que no se reincorporen inventarios de personas al árbol publicado. Son comprobaciones estructurales y no sustituyen una revisión del contenido. El HTML sigue funcionando localmente sin servidor ni dependencias instaladas.
+El primer comando actualiza las copias incrustadas en `index.html`; el segundo detecta documentos ausentes o desactualizados sin modificar archivos. Solo se incluyen los documentos aprobados en `scripts/public-documents.mjs`; un archivo nuevo requiere revisión explícita antes de añadirlo. Las pruebas comprueban la coherencia del manual y que el inventario existente siga disponible. El HTML sigue funcionando localmente sin servidor ni dependencias instaladas.

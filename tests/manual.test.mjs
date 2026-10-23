@@ -23,20 +23,22 @@ test('only approved public documents are embedded without drift', () => {
   for (const section of context.SECTIONS) assert.match(context.renderMD(section.md), /<h1>/);
 });
 
-test('public tree excludes private records and the site remains student facing', () => {
+test('student manual stays public and retains the existing roster', () => {
   const tracked = execFileSync('git', ['ls-files', '-z'], { cwd: root, encoding: 'utf8' }).split('\0').filter(Boolean);
-  const allowedRoster = new Set(['roster/README.md', 'roster/grupos-detalle.md', 'roster/ideas-e-inventario.md']);
+  const allowedRoster = new Set(['roster/README.md', 'roster/grupos-detalle.md', 'roster/ideas-e-inventario.md', 'roster/Inventario_talento_RedJIV.xlsx']);
   const reviewedMarkdown = new Set(['README.md', 'roster/README.md', ...publicDocuments.map(([, name]) => name)]);
   for (const name of tracked) {
     assert.ok(!name.startsWith('.private/'), 'Private coordination folder must not be tracked');
-    assert.doesNotMatch(name, /\.(xlsx?|vcf)$/i, 'Personal inventories must not be tracked');
     if (name.startsWith('roster/')) assert.ok(allowedRoster.has(name), 'Unreviewed roster file: ' + name);
     if (name.endsWith('.md')) assert.ok(reviewedMarkdown.has(name), 'Unreviewed public Markdown: ' + name);
   }
-  for (const [, name] of publicDocuments) {
-    assert.doesNotMatch(readFileSync(new URL(name, root), 'utf8'),
-      /(?:^|\n)# PRIVADO|contiene nombres|ubicaciones inferidas|Lo inferible hoy|^- (?:Lead|Equipo):/m, name);
-  }
+  assert.ok(tracked.includes('roster/Inventario_talento_RedJIV.xlsx'), 'Keep the original talent inventory');
+  const inventory = readFileSync(new URL('roster/Inventario_talento_RedJIV.xlsx', root));
+  assert.equal(inventory.subarray(0, 2).toString(), 'PK');
+  const teams = context.SECTIONS.find(s => s.id === 'r1').md;
+  assert.match(teams, /- Lead: /);
+  assert.match(teams, /- Equipo: /);
+  assert.match(context.SECTIONS.find(s => s.id === 'd03').md, /Leads propuestos por track/);
   assert.match(html, /Manual público/);
   assert.doesNotMatch(html, /manual interno|\(PRIVADO\)|noindex/);
   assert.match(readFileSync(new URL('README.md', root), 'utf8'), /GitHub Pages permanecen públicos/);

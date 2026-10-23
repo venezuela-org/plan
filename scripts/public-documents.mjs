@@ -4,7 +4,7 @@ export const publicDocuments = [
   ['d00', '00-resumen-ejecutivo.md', 'Resumen ejecutivo'],
   ['d01', '01-plan-30-dias.md', 'Plan a 30 días'],
   ['d02', '02-tracks-mvd-y-dod.md', 'Tracks · MVD y DoD'],
-  ['d03', '03-raci.md', 'Responsabilidades por rol'],
+  ['d03', '03-raci.md', 'RACI y dueños'],
   ['d04', '04-registro-riesgos.md', 'Riesgos'],
   ['d05', '05-intake.md', 'Intake y consentimiento'],
   ['d06', '06-github-setup.md', 'GitHub'],
@@ -15,6 +15,6 @@ export const publicDocuments = [
   ['d11', '11-ecosistema-directorio.md', 'Ecosistema · directorio'],
   ['d12', '12-guion-sesion-inaugural.md', 'Sesión inaugural'],
   ['d13', '13-preparacion-sesion-inaugural.md', 'Preparación de la sesión'],
-  ['r1', 'roster/grupos-detalle.md', 'Roles por track'],
-  ['r2', 'roster/ideas-e-inventario.md', 'Ideas de la red'],
+  ['r1', 'roster/grupos-detalle.md', 'Grupos y leads'],
+  ['r2', 'roster/ideas-e-inventario.md', 'Ideas e inventario'],
 ];

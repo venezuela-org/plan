@@ -1,7 +1,9 @@
-# Roles e ideas de la red · Versión pública
+# Equipos e inventario de la red
 
-Esta carpeta contiene perfiles por track y un resumen de ideas sin nombres, contactos ni ubicaciones individuales. Los estudiantes pueden consultarla libremente.
+Esta carpeta conserva los nombres de leads propuestos, los equipos por track, las ideas y el inventario de talento. Los participantes están de acuerdo con mantener sus nombres en el manual público.
 
-Los inventarios por persona y las asignaciones nominales se conservan fuera del repositorio público, en el canal restringido de coordinación. No subir hojas de cálculo ni respuestas del intake, tampoco como archivos descargables.
+- `grupos-detalle.md`: nombres, perfiles y entregables por track. Leads y disponibilidad por confirmar.
+- `ideas-e-inventario.md`: ideas, capacidades e inferencias de ubicación identificadas como pendientes de confirmación.
+- [Inventario de talento](Inventario_talento_RedJIV.xlsx): hoja de cálculo original, conservada para no perder información.
 
-La retirada de un archivo de la versión actual no lo elimina del historial de Git ni de copias anteriores. La coordinación debe revisar por separado los datos publicados previamente.
+Para corregir información o solicitar su retirada, contactar a la coordinación por el canal de la red.
