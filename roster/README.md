@@ -1,7 +1,7 @@
-# PRIVADO · Roster de la red
+# Roles e ideas de la red · Versión pública
 
-Estos son datos privados de coordinación. No publicar, replicar, indexar ni compartir públicamente. Acceso solo para la coordinación autorizada.
+Esta carpeta contiene perfiles por track y un resumen de ideas sin nombres, contactos ni ubicaciones individuales. Los estudiantes pueden consultarla libremente.
 
-`Inventario_talento_RedJIV.xlsx` contiene nombres, áreas, afiliaciones y contactos inferidos de la red. No debe aparecer en el sitio público, en `index.html`, en el repositorio de GitHub Pages, en ningún README público ni en ningún archivo público descargable.
+Los inventarios por persona y las asignaciones nominales se conservan fuera del repositorio público, en el canal restringido de coordinación. No subir hojas de cálculo ni respuestas del intake, tampoco como archivos descargables.
 
-El resumen agregado y no identificativo que sí es público vive en el paquete público, en `docs/talent-network-summary.md`.
+La retirada de un archivo de la versión actual no lo elimina del historial de Git ni de copias anteriores. La coordinación debe revisar por separado los datos publicados previamente.

@@ -1,6 +1,6 @@
 # 09 · Gobernanza, seguridad y protección de datos
 
-Documento interno.
+Guía pública.
 
 ## Autoría y crédito
 
@@ -21,7 +21,7 @@ Documento interno.
 
 ## Seguridad
 
-- Empezar todo privado.
+- El manual estudiantil es público. Los proyectos que manejan información interna o sensible empiezan en espacios privados con acceso restringido.
 - 2FA obligatoria.
 - No exponer quién está dentro del país ni quién hace qué. Seudónimos permitidos.
 - Nada de datos personales, médicos o de ubicación de víctimas, ni datos de pacientes, en ningún repositorio, público o privado. Ver `07-clasificacion-datos.md`.

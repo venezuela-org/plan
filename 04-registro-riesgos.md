@@ -1,6 +1,6 @@
 # 04 · Registro de riesgos
 
-Documento interno. P probabilidad, I impacto (A alto, M medio, B bajo).
+Guía pública. P probabilidad, I impacto (A alto, M medio, B bajo).
 
 | Riesgo | P | I | Mitigación | Dueño |
 |---|---|---|---|---|

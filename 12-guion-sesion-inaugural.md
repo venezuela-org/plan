@@ -1,6 +1,6 @@
 # Guion de la sesión inaugural · Segunda reunión de la red
 
-Notas de quien presenta. 45 minutos, virtual, en español. Uso interno; no publicar. Orden: primero lo que decidimos, después lo que existe, después el guion minuto a minuto, al final la demostración y el cierre.
+Notas de quien presenta. 45 minutos, virtual, en español. Versión pública sin asignaciones personales. Orden: primero lo que decidimos, después lo que existe, después el guion minuto a minuto, al final la demostración y el cierre.
 
 ## 1. Lo que decidimos: la idea en una frase
 
@@ -11,27 +11,22 @@ La metodología es un hackathon distribuido de largo plazo, edición permanente 
 Cuatro puntos en esta sesión:
 
 1. Las herramientas: GitHub, Discord, trabajo asíncrono.
-2. El Laboratorio de Ideas: continuar el ejercicio de José con una plantilla por dupla.
+2. El Laboratorio de Ideas: continuar el ejercicio del primer encuentro con una plantilla por dupla.
 3. Conexión RedJIV: el track dedicado a los terremotos del 24 de junio.
 4. CoAfina 2026: participar, proponer retos y ser embajadores ante otros estudiantes.
 
 Y una visión que cierra: no empezamos de cero. Cada repositorio, cada DOI, cada ORCID y cada encuentro son evidencia para cualquier agencia de financiamiento de que hay una red que ya funciona.
 
-## 2. Lo que existe hoy (verificado por inspección)
+## 2. Recursos para estudiantes
 
-| Pieza | Dónde | Estado |
-|---|---|---|
-| Página pública de Conexión RedJIV (ES/EN) | https://venezuela-org.github.io/site/ | Publicada. Ojo: el chip del hero todavía dice "arranque previsto: agosto 2026" y la nota de voz dice "julio". Si no se corrigió, decirlo en voz alta: "la página está desactualizada en la fecha, el contenido vale" |
-| Manual de operaciones (docs 00 a 11, roster) | https://venezuela-org.github.io/plan/ | Publicado, repositorio público. No abrir el roster en pantalla |
-| Laboratorio de Ideas (fuente) | repositorio privado redjiv-lab-de-ideas | 20 fichas (16 ideas, 4 brechas), sitio con filtros y búsqueda, pruebas en verde, 19 de 20 duplas sin consentimiento todavía. No mostrar fichas con nombres |
-| Laboratorio de Ideas (acceso cifrado) | redjiv-lab-acceso | Un index.html cifrado, guardia en CI. No aparecía en la lista pública de la organización: comprobar antes de mencionarlo |
-| Organización en GitHub | https://github.com/venezuela-org | Existe; públicos site y plan |
-| Servidor de Discord | enlace de la convocatoria | Existe |
-| Caso real de infraestructura | https://github.com/laa-hecap/LAGO-merida-infra | Público, bilingüe, gobernado por puertas. El README decía "private" y no tenía releases: comprobar si se corrigió |
-| CoAfina 2026, página de acción | https://laa-hecap.github.io/coafina/ | Publicada. Retos: 27 sep al 23 oct. Estudiantes: 11 oct al 4 nov. Hackathon: 27, 28 y 29 nov. Wikimedia CH patrocinador principal; INAIT y SSI apoyan |
-| Programa del curso, mapa y lista de preparación | programa.md, mapa.svg, preparacion.md | Listos, sin fechas duras, sin nombres |
+- Manual de participación: https://venezuela-org.github.io/plan/
+- Presentación de Conexión RedJIV: https://venezuela-org.github.io/site/
+- Organización en GitHub: https://github.com/venezuela-org
+- Discord: usar el enlace vigente de la convocatoria.
+- Laboratorio de Ideas: consultar la plantilla; las fichas con nombres requieren consentimiento antes de publicarse.
+- CoAfina: https://laa-hecap.github.io/coafina/
 
-Lo que NO debe salir en pantalla: roster, nombres de leads propuestos, fichas con nombres, el bit.ly del ChatMap, handles de Instagram sin verificar, el nombre real de quien coordina como dueño del conjunto.
+Para la demostración, usar solo ejemplos públicos o sintéticos. Los inventarios por persona, ubicaciones, contactos y asignaciones nominales quedan fuera del material compartido. Comprobar enlaces y fechas antes de la sesión.
 
 ## 3. Guion minuto a minuto
 
@@ -117,6 +112,6 @@ Asignación de miembro antes del primer encuentro: cuentas de ORCID, GitHub, Zen
 
 CoAfina 2026: inscripción de estudiantes abierta hasta el 4 de noviembre, retos hasta el 23 de octubre, hackathon 27, 28 y 29 de noviembre. Cada miembro: inscribirse, proponer un reto, o traer tres estudiantes. Página: https://laa-hecap.github.io/coafina/
 
-Coordinación compartida: [nombres de quienes se ofrecieron] quedan como co-dueños de GitHub, co-anfitriones de Discord y administradoras de Zenodo.
+Coordinación compartida: las personas que aceptaron el rol por el canal de coordinación quedan como co-dueños de GitHub, co-anfitriones de Discord y administradoras de Zenodo.
 
 Guías para crear las cuentas y hacer el primer aporte: en el repositorio de la organización. Dudas en el canal ayuda-github.

@@ -1,56 +1,44 @@
-# PRIVADO · Detalle de grupos con nombres y leads
+# Roles por track y entregables · Versión pública
 
-No publicar. Sensible. Fuente del reparto por track.
-
----
-
-# 2 · Los grupos y el reto
-
-Reenfocamos las 20 ideas del primer encuentro en seis grupos de emergencia, y los corremos como una edición temática de CoAfina, con los próximos encuentros como puntos de control de sprint. Los entregables y condiciones de arranque se definen en `../02-tracks-mvd-y-dod.md`; aquí se proponen equipos por confirmar.
+Reenfocamos las 20 ideas del primer encuentro en seis grupos de emergencia, y los corremos como una edición temática de CoAfina, con los próximos encuentros como puntos de control de sprint. Los entregables y condiciones de arranque se definen en `../02-tracks-mvd-y-dod.md`; aquí se describen perfiles sin asignaciones personales.
 
 ## Los seis grupos
 
 Cada grupo tiene un lead senior que valida y conecta con quienes responden, y estudiantes que ejecutan.
 ### A · Backbone de datos, cómputo y coordinación
 Sostiene a los demás: el repo, cómputo, hosting de datos, el tablero y el mecanismo para canalizar y financiar el esfuerzo.
-- Lead: Luis Montilla o José Hugo García (coordinación de la red).
-- Equipo: Diego Baptista (ciencias de la computación), Roberto Florez Ablan, Víctor Guzmán, Gabriela Quintero.
+- Perfil de referencia: Coordinación de la red y soporte técnico.
 - Ideas que aporta: 4 (infraestructura para rescate del conocimiento), 10 (reproducibilidad y nube), 16 (escalar investigación temprana, que aquí canaliza el financiamiento).
 - Primer entregable (semana 1): organización de GitHub asegurada, repo de coordinación y tablero con tareas y reglas de datos. Ver `../01-plan-30-dias.md`.
 
 ### B · Mapa de necesidades y accesos
 Dónde no está llegando la ayuda: daños, vías bloqueadas y vacíos de cobertura en La Guaira, Caracas y los estados afectados, para dárselo a quienes responden.
-- Lead: María Vincenti González (GIS, epidemiología) o Luis Montilla.
-- Equipo: Leonardo Manrique (grafos), Reybert Carrillo (geografía), Barbara Montañes (física).
+- Perfil de referencia: Análisis geoespacial y epidemiología.
 - Ideas que aporta: 14 (grafos de movilidad urbana), 18 (análisis geoespacial).
 - Primer entregable (para el segundo encuentro, semana 4): contribuciones coordinadas a HOT/MapSwipe y análisis reproducible de vacíos de cobertura sobre capas existentes, revisado por un segundo par y con contacto de entrega en OCHA. No construir un mapa paralelo.
 
 ### C · Agua segura y saneamiento
 Protocolo de calidad de agua de bajo costo y una guía práctica de purificación y saneamiento para refugios.
-- Lead: Alejandro Goldar (sistemas de control, ULB) o Mariana Gelambi (Virginia Tech).
-- Equipo: Fernando Méndez (química analítica ambiental), Eduardo Rodríguez-Román (virología), Valentín Brito (polímeros).
+- Perfil de referencia: Agua segura, saneamiento y revisión científica.
 - Ideas que aporta: 13 (aguas residuales), 2 (contaminantes en agua), 7 (microplásticos).
 - Primer entregable (semana 4): guía de agua segura y saneamiento de una página basada en fuentes OMS/WASH, revisada por dos pares y lista para imprimir. Redacción en semana 2 y revisión en semana 3; coordinar difusión con el clúster WASH.
 
 ### D · Mapa del ecosistema digital de emergencia
 Ordenar, verificar y conectar las plataformas existentes, sin duplicar sus datos.
-- Lead: lead técnico con apoyo de coordinación y un revisor de protección de datos, por confirmar.
-- Equipo: por confirmar.
+- Perfil de referencia: Soporte técnico, coordinación y revisión de protección de datos.
 - Primer entregable (7 días): directorio de plataformas con estado y fecha de revisión, alcance, contacto público, riesgo de privacidad y uso seguro recomendado; revisado por dos pares.
 - A 30 días: recomendación breve de interoperabilidad y protección de datos. Ver `../11-ecosistema-directorio.md`.
 
 ### E · Salud en refugios y salud mental
 Lista de vigilancia de enfermedades en refugios y material de primeros auxilios psicológicos, revisados por clínicos.
-- Lead: Juan Carlos Gabaldón (medicina, parasitología) o María Vincenti (epidemiología).
-- Equipo: José Orejas (medicina, base de salud mental por región), Jamileth More (neurociencias, psicosocial), Eduar García, Soriuska Mayora, Fhabián Carrión-Nessi (inmunología), Jesús Afonso Urich (farmacia).
+- Perfil de referencia: Medicina, epidemiología, salud mental e inmunología.
 - Ideas que aporta: 1, 15, 17, 18.
 - Condición de arranque: plan de datos sensibles aprobado y visto bueno ético. Nada de datos de pacientes en ningún repositorio, público o privado.
 
 ### F · Riesgo de réplicas, deslizamientos y sitio seguro
 Explicador de réplicas en lenguaje claro y criterios de sitio seguro para campamentos, sin depender de datos de campo.
-- Lead: Saúl Escobar o Liliana López (geología, UCV, dentro del país).
-- Equipo: Reybert Carrillo, Raffaella Martínez (medios granulares), José Hugo García (IA).
-- Ideas que aporta: 1 (Saúl ya tiene mapas regionales de suelo), 3 (medios granulares).
+- Perfil de referencia: Geociencias, análisis geoespacial y revisión de datos fuente.
+- Ideas que aporta: 1 (suelos), 3 (medios granulares).
 - Primer entregable: explicador de réplicas y criterios de sitio seguro, revisados por un lead de geociencias y coordinados con FUNVISIS.
 - Condición de arranque: leads de geociencias confirman disponibilidad y acceso a datos fuente.
 

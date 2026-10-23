@@ -1,6 +1,6 @@
 # 03 · Matriz RACI y dueños
 
-Documento interno y sensible: contiene nombres. R responsable, A rinde cuentas, C consultado, I informado. Leads propuestos y por confirmar.
+Versión pública por roles. R responsable, A rinde cuentas, C consultado, I informado. Las asignaciones personales se confirman por el canal restringido de coordinación.
 
 | Actividad | Coordinación | Lead científico | Lead técnico | Mentoría | Miembros |
 |---|---|---|---|---|---|
@@ -15,12 +15,12 @@ Documento interno y sensible: contiene nombres. R responsable, A rinde cuentas, 
 | Enlace con organismos (OCHA, WASH, FUNVISIS) | R | C | I | I | I |
 | Revisión de protección de datos | A | C | C | C | I |
 
-Leads propuestos por track (por confirmar disponibilidad y horas):
-- A: coordinación de la red (Luis Montilla o José Hugo García).
-- B: María Vincenti González o Luis Montilla.
-- C: Alejandro Goldar o Mariana Gelambi.
+Perfiles de referencia por track (por confirmar disponibilidad y horas):
+- A: coordinación de la red y soporte técnico.
+- B: análisis geoespacial y epidemiología.
+- C: agua segura, saneamiento y revisión científica.
 - D: lead técnico con apoyo de coordinación y un revisor de protección de datos.
-- E: Juan Carlos Gabaldón o María Vincenti.
-- F: Saúl Escobar o Liliana López (geociencias, dentro del país).
+- E: medicina, epidemiología y salud mental.
+- F: geociencias y revisión de datos fuente.
 
-El detalle de equipos por track está en `roster/grupos-detalle.md`.
+Los roles y entregables por track están en `roster/grupos-detalle.md`. Los nombres, contactos y ubicaciones de miembros no se publican aquí.

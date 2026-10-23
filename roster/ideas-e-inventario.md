@@ -1,10 +1,4 @@
-# PRIVADO · Ideas e inventario (con ubicaciones inferidas)
-
-No publicar. Sensible: contiene ubicaciones inferidas dentro de Venezuela.
-
----
-
-# 4 · Ideas e inventario de talento
+# Ideas de la red · Resumen público
 
 ## Las 20 ideas del primer encuentro
 
@@ -35,20 +29,8 @@ Nada se pierde. Las que alimentan un grupo de emergencia se marcan con el grupo;
 
 La fortaleza real del primer encuentro fueron las duplas entre disciplinas que normalmente no se hablan. Esa mezcla es la que hace posible reenfocar rápido.
 
-## El talento de la red
+## Capacidades de la red
 
-48 personas únicas (registros duplicados consolidados, más los autores de ideas que entraron como invitados). Doble reparto: dentro del país y diáspora.
+La red reúne capacidades en química y materiales, física y sistemas complejos, salud y biomedicina, biología y ecología, cómputo y datos, geociencias, matemáticas, ingeniería de control y paleontología.
 
-Fortalezas por área: química y materiales 14, física y sistemas complejos 10, salud y biomedicina 9, biología y ecología 5, cómputo y datos 3, geociencias 3, matemáticas 2, más ingeniería de control y paleontología. La mitad dentro del país da acceso a terreno; la diáspora aporta instrumentos, afiliaciones y alcance, repartida en unos 14 países (España, Suiza, Austria, Brasil, EE. UU., Países Bajos, Alemania, Bélgica, Italia, Chile, Francia, Perú, Argentina).
-
-El inventario completo por persona, con área y país aproximado, está en el archivo `Inventario_talento_RedJIV.xlsx` que acompaña a este repo. País y afiliación se infirieron de dominios de correo y códigos telefónicos, así que son un punto de partida a confirmar.
-
-## Mapa nacional
-
-Objetivo: saber quién está dentro de Venezuela y en qué estado, para ver quién puede estar en la zona afectada y necesitar apoyo, y quién está en zona segura y puede dar relevo de coordinación.
-
-Lo inferible hoy: probable Gran Caracas o Distrito Capital (por UCV y USB) para Saúl Escobar, Liliana López, Soriuska Mayora, Raffaella Martínez, Goosline Pereira y David Bellorin; probable Oriente (UDO) para Valentín Brito; el resto dentro del país con estado por confirmar.
-
-Estados más golpeados, para cruzar: La Guaira (Vargas), Distrito Capital, Aragua, Carabobo, Yaracuy. Quien esté en Gran Caracas se contacta primero, con cuidado y para ofrecer apoyo, no para asignar tareas.
-
-Lo que falta: el estado dentro de Venezuela es el campo nuevo del intake (`en_venezuela`, `region_estado`). En cuanto la gente lo llene, este mapa deja de ser inferencia y pasa a ser dato. Prioridad: que los que están dentro del país lo llenen primero.
+Las asignaciones y necesidades de apoyo se consultan por el canal restringido de coordinación. Este resumen no incluye inventarios por persona, afiliaciones, contactos ni inferencias de ubicación.

@@ -1,6 +1,6 @@
 # 06 · Montaje de la organización y repos
 
-Documento interno. Estructura de GitHub, no publicar.
+Guía pública de GitHub. Los registros privados de coordinación se mantienen por separado.
 
 ## Crear la organización
 

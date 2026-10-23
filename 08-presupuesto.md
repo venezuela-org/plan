@@ -1,6 +1,6 @@
 # 08 · Presupuesto y recursos
 
-Documento interno. Montos aproximados, a confirmar con Creative Commons Venezuela. Todo se libera contra entregables, no por inscribirse.
+Guía pública. Montos aproximados, a confirmar con Creative Commons Venezuela. Todo se libera contra entregables, no por inscribirse.
 
 | Recurso | Para qué | Estimado | Notas |
 |---|---|---|---|

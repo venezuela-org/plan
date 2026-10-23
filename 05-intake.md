@@ -1,6 +1,6 @@
 # 05 · Preguntas del formulario de intake
 
-Documento interno. El intake es doble: recoge el perfil de capacidades y la disponibilidad de respuesta. Los campos de ubicación y contacto son sensibles y viven solo en el repo privado. Requiere revisión de protección de datos antes de abrirse.
+Guía pública. El intake es doble: recoge el perfil de capacidades y la disponibilidad de respuesta. Las respuestas, ubicaciones y contactos se recogen por un canal restringido y no se guardan en este repositorio público. Requiere revisión de protección de datos antes de abrirse.
 
 ## Identidad y ubicación (sensible)
 
